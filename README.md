@@ -4,11 +4,8 @@
 
 This is our amazing team:
 
-* Abazovic
-    * wirklich
-* Gabeljic
-    * wirklich
-* Meyr
-    * wirklich
+* Abazovic Emina
+* Gabeljic Amina
+* Meyr Julia
 
 ## Milestone
