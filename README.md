@@ -10,4 +10,7 @@ This is our amazing team:
 * Gabeljic Amina
 * Meyr Julia
 
+
+![Weltkarte](https://malvorlagen-seite.de/wp-content/uploads/2021/08/landkarte-welt-weltkarte-scaled.jpg)
+
 ## Milestone
