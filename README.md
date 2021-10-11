@@ -6,7 +6,7 @@ A website that displays you a map of the globe including all the continents and 
 
 <br/>
 
-![Weltkarte](Weltkarte.jpg)
+![Weltkarte](images/Weltkarte.jpg)
 
 <br/>
 
