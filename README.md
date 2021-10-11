@@ -55,5 +55,11 @@ In order to select a country you have to <u>klick on</u> a <u>continent</u> on t
 ## **Project Members**
 
 * Abazovic Emina
-* Gabeljic Amina
+  * North America, Europe
+  * 3D-Globe 
+* Gabeljic Amina 
+  * South America, Africa
+  * Logo-Design
 * and Meyr Julia
+  * Asia, Australia 
+  * Project leader
