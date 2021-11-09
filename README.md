@@ -19,16 +19,17 @@ We are putting our focus on the <u>cultures, recipes, sights</u> and <u>the popu
 ### Dynamic Part:
 
 In order to select a country you have to <u>klick on</u> a <u>continent</u> on the <u>3D-globe</u> to get a zoomed-in and more detailed version. When the user has chosen the <u>desired destination</u>, a <u>simulated airplane</u> makes its way to it. From there on, it shows the user <u>all the information</u> about the country.
+In the second semester, we want to use the online data resource and provide a request formular for data from the site: ![Our World Data](https://ourworldindata.org/).
 
 <br/>
 
 ## **Milestones**
 
-1. <u>Research on recipes, cultures, sights</u> and <u>population</u> of each country until New Year (01.01.2022).
+1. <u>Research on recipes, cultures, sights</u> and <u>population</u> of each country until Halloween (31.10.2022).
 
 2. <u>Create</u> a <u>logo, the website</u> and <u>3D-globe with all destinations</u> until the semester break (27.02.2022).
 
-3. <u>Display all countries on</u> the <u>3D-world</u> and <u>be able to click on them</u> until the easter holidays (05.04.2022).
+3. <u>Display all countries on</u> the <u>3D-world</u> and <u>be able to click on them</u> until the end of the year.
 
 4. <u>Insert information</u> to each country and <u>simulate air plane</u> by end of submission.
 
