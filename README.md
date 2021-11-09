@@ -19,7 +19,7 @@ We are putting our focus on the <u>cultures, recipes, sights</u> and <u>the popu
 ### Dynamic Part:
 
 In order to select a country you have to <u>klick on</u> a <u>continent</u> on the <u>3D-globe</u> to get a zoomed-in and more detailed version. When the user has chosen the <u>desired destination</u>, a <u>simulated airplane</u> makes its way to it. From there on, it shows the user <u>all the information</u> about the country.
-In the second semester, we want to use the online data resource and provide a request formular for data from the site: ![Our World Data](https://ourworldindata.org)
+In the second semester, we want to use the online data resource and provide a request formular for data from the site: [Our World Data](https://ourworldindata.org/)
 
 <br/>
 
