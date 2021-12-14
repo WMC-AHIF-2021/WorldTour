@@ -56,11 +56,12 @@ In the second semester, we want to use the online data resource and provide a re
 ## **Project Members**
 
 * Abazovic Emina
-  * North America, Europe
+  * Research: North America, Europe
   * 3D-Globe 
 * Gabeljic Amina 
-  * South America, Africa
-  * Logo-Design
+  * Research: South America, Africa
+  * Website Design
 * and Meyr Julia
-  * Asia, Australia 
+  * Research: Asia, Australia 
+  * Webite Design
   * Project leader
