@@ -14,11 +14,11 @@ A website that displays you a map of the globe including all the continents and 
 
 ### Static Part:
 
-We are putting our focus on the <u>cultures, recipes, sights</u> and <u>the population</u> of each destination. With detailed research, we want to give travel enthusiasts and entrepreneurs a <u>new opportunity</u> to display all the <u>most important information</u> about each country <u>at once</u>.
+We are putting our focus on the cultures, recipes, sights and the population of each destination. With detailed research, we want to give travel enthusiasts and entrepreneurs a new opportunity to display all the most important information about each country at once.
 
 ### Dynamic Part:
 
-In order to select a country you have to <u>klick on</u> a <u>continent</u> on the <u>3D-globe</u> to get a zoomed-in and more detailed version. When the user has chosen the <u>desired destination</u>, a <u>simulated airplane</u> makes its way to it. From there on, it shows the user <u>all the information</u> about the country.
+In order to select a country you have to klick on a continent on the 3D-globe to get a zoomed-in and more detailed version. When the user has chosen the <u>desired destination</u>, a <u>simulated airplane</u> makes its way to it. From there on, it shows the user <u>all the information</u> about the country.
 In the second semester, we want to use the online data resource and provide a request formular for data from the site: [Our World Data](https://ourworldindata.org/)
 
 <br/>
