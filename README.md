@@ -41,15 +41,15 @@ In the second semester, we want to use the online data resource and provide a re
 ## **Environmental Analysis and Risks**
 
 ### Audience Group:
-* <u>Travel enthusiasts</u> can use our website to find out about new destinations and their most important conditions. 
-* Likewise, <u>entrepreneurs</u> who want to work internationally and learn about cultures, can use our website as well.
+* Travel enthusiasts can use our website to find out about new destinations and their most important conditions. 
+* Likewise, entrepreneurs who want to work internationally and learn about cultures, can use our website as well.
 
 ### Technologies:
-* We want to use the most famous web technologies like: <u>HTTP, HTML, CSS</u> and <u>Java Script</u> for our project.
+* We want to use the most famous web technologies like: HTTP, HTML, CSS and Java Script for our project.
 
 ### Potential Risks:
-* <u>For project members:</u> Risks that could have an impact on our project are, that we may <u>take on too much</u> and <u>not be able to insert all the features</u> into our project.
-* <u>For the environment:</u> When the finished website is in use, users may <u>travel more</u> with airplanes to different continents, which is <u>not good</u> for the <u>environment</u>.
+* For project members: Risks that could have an impact on our project are, that we may take on too much and not be able to insert all the features into our project.
+* For the environment: When the finished website is in use, users may travel more with airplanes to different continents, which is not good for the environment.
 
 <br/>
 
