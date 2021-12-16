@@ -18,22 +18,22 @@ We are putting our focus on the cultures, recipes, sights and the population of 
 
 ### Dynamic Part:
 
-In order to select a country you have to klick on a continent on the 3D-globe to get a zoomed-in and more detailed version. When the user has chosen the <u>desired destination</u>, a <u>simulated airplane</u> makes its way to it. From there on, it shows the user <u>all the information</u> about the country.
+In order to select a country you have to klick on a continent on the 3D-globe to get a zoomed-in and more detailed version. When the user has chosen the desired destination, a simulated airplane makes its way to it. From there on, it shows the user all the information about the country.
 In the second semester, we want to use the online data resource and provide a request formular for data from the site: [Our World Data](https://ourworldindata.org/)
 
 <br/>
 
 ## **Milestones**
 
-1. <u>Research on recipes, cultures, sights</u> and <u>population</u> of each country until Halloween (31.10.2022).
+1. Research on recipes, cultures, sights and population of each country until Halloween (31.10.2022).
 
-2. <u>Create</u> a <u>logo, the website</u> and <u>3D-globe with all destinations</u> until the semester break (27.02.2022).
+2. Design a logo, the website and 3D-globe with all destinations until the semester break (27.02.2022).
 
-3. <u>Display all countries on</u> the <u>3D-world</u> and <u>be able to click on them</u> until the end of the year.
+3. Display all countries on the 3D-world and be able to click on them until the end of the year.
 
-4. <u>Insert information</u> to each country and <u>simulate air plane</u> by end of submission.
+4. Insert information to each country and simulate air plane by end of submission.
 
-5. <u>Presentation</u> on the agreed date.
+5. Presentation< on the agreed date.
 
 <br/>
 
