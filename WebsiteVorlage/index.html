@@ -4,25 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-Frame-Options" content="deny">
-    <title></title> <!-- Name vom Land -->
+    <title></title> <!-- TODO: Name vom Land -->
     <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
+
 <body>
+    <div class="navbar" style="margin-top: 0.5em;">
+        <div class="container">
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit"  class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                <ul class="primary-nav">
+                    <a class="logo" href="#">Logo</a> <!-- TODO: World Tour Logo (image)-->
+                </ul>
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">General</a></li>    <!-- TODO: Links zu einzelnen "Abteilungen" der Seite -->
+                    <li><a href="#">Facts</a></li>
+                    <li><a href="#">Civilization</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li class="go-premium-cta"><a href="#">Contact</a></li> <!-- TODO: Link zu Main index Seite um uns zu kontaktieren -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+
     <section class="hero">
         <div class="container">
             <div class="left-col">
-                <p class="display-1">Country</p>
-                <p class="subhead display-6"><!-- Hauptstadt -->Capital City</p>
+                
+                <p class="subhead">Capital City</p> <!-- TODO: Hauptstadt -->
+                <h1>Country</h1> <!-- TODO: Land -->
+
                 <div class="hero-cta">
-                        <a href="#" class="btn btn-primary" style="border-radius: 0.5em;" role="button"> <img src="images/watch.svg" alt="Watch a video"> Watch a video</img></a>
+                    <a href="#" class="primary-cta">Scroll for facts</a>
+                    <a href="link" class="watch-video-cta"> <!-- TODO: richtiger Link für Video zum Land -->
+                        <img src="images/watch.svg" alt="Watch a video">Watch a video</img> 
+                    </a>
                 </div>
             </div>
 
-            <img src="images/illustration.svg" class="hero-img" alt="Illustration"> <!-- Bild von Flagge vom Lad-->
+            <img src="images/" class="hero-img" alt="Illustration"> <!-- TODO: Flagge -->
         </div>
     </section>
 
+    <!-- TODO: Informationen eingeben -->
     <section class="features-section">
         <div class="container">
             <ul class="features-list">
@@ -34,7 +64,7 @@
                 <li>&#10063; Random Fact: ...</li> <!-- A random Fact about ... is, that ...-->
             </ul>
 
-            <img src="images/holding-phone.jpg" alt="Man holding phone">
+            <img src="images/" alt="Illustration"> <!-- TODO: Bild von irgendwas aus dem Land -->
         </div>
     </section>
 
@@ -42,32 +72,29 @@
         <div class="container">
             <ul>
                 <li>
-                    <img src="images/person.jpg" alt="Person"> <!-- Recipes-->
+                    <img src="images/" alt="Person"> <!-- TODO: Bild Recipes-->
 
-                    <blockquote>...</blockquote>
+                    <blockquote>...</blockquote> <!-- TODO: Informationen -->
                     <cite>- Recipes</cite>
                 </li>
                 <li>
-                    <img src="images/person.jpg" alt="Person"> <!-- Culture-->
+                    <img src="images/" alt="Person"> <!-- TODO: Bild Culture-->
 
-                    <blockquote>...</blockquote>
+                    <blockquote>...</blockquote> <!-- TODO: Informationen -->
                     <cite>- Culture</cite>
                 </li>
                 <li>
-                    <img src="" alt="Person"> <!-- Special Sights image-->
+                    <img src="" alt="Person"> <!-- TODO: Bild Special Sights image-->
 
-                    <blockquote>...</blockquote>
+                    <blockquote>...</blockquote> <!-- TODO: Informationen -->
                     <cite>- Special Sights</cite>
                 </li>
             </ul>
         </div>
     </section>
-   
+
     <section class="contact-section">
         <div class="container">
-            <!-- stattdesssen Liste mit Ländern um das jetzige Land -->
-            
-            <!-- slides mit ländern die um das jetzige land liegen-->
             <div class="contact-left">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -75,29 +102,31 @@
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
+                    <!-- TODO: Nachtbarländer des jetzigen Landes ergänzen; die Bilder müssen im vorhinein der richtigen Größe angepasst sein (auf dem Speicher bzw. Festplatte alle gleiche Größe): Breite: 621 Pixel; Höhe: 522 -->
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="images/holding-phone.jpg" class="d-block w-100">
+                        <img src="images/holding-phone.jpg" class="d-block w-10"> <!-- TODO: Bild ändern + Informationen zu diesem Nachtbarland -->
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>First slide label</h5>
-                          <p>Some representative placeholder content for the first slide.</p>
+                          <h5>First slide label</h5> <!-- Nachtbarlandname -->
+                          <p>Some representative placeholder content for the first slide.</p> <!-- Informationen bzw. Lage -->
                         </div>
                       </div>
                       <div class="carousel-item disabled">
-                        <img src="images/person.jpg" class="d-block w-100">
+                        <img src="images/person.jpg" class="d-block w-10"> <!-- TODO: Bild ändern + Informationen zu diesem Nachtbarland -->
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>Second slide label</h5>
-                          <p>Some representative placeholder content for the second slide.</p>
+                          <h5>Second slide label</h5> <!-- Nachtbarlandname -->
+                          <p>Some representative placeholder content for the second slide.</p> <!-- Informationen bzw. Lage -->
                         </div>
                       </div>
                       <div class="carousel-item disabled">
-                        <img src="images/holding-phone.jpg" class="d-block w-100">
+                        <img src="images/holding-phone.jpg" class="d-block w-10"> <!-- TODO: Bild ändern + Informationen zu diesem Nachtbarland -->
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>Third slide label</h5>
-                          <p>Some representative placeholder content for the third slide.</p>
+                          <h5>Third slide label</h5> <!-- Nachtbarlandname -->
+                          <p>Some representative placeholder content for the third slide.</p> <!-- Informationen bzw. Lage -->
                         </div>
                       </div>
                     </div>
+                    <!-- weitere Nachtbarländer ... -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
@@ -111,11 +140,14 @@
             </div>
                 
             <div class="contact-right">
-                <iframe src="https://www.google.at/maps/place/Somalia/@5.242006,41.8080997,6z/data=!3m1!4b1!4m5!3m4!1s0x181d2ea7ecd15b83:0x9e393ace5ce9e5be!8m2!3d5.152149!4d46.199616" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> <!-- Standort vom Land-->
+                <!--BEISPIEL:-->
+                <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8136973.60393802!2d41.80803995387182!3d5.242005707526857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x181d2ea7ecd15b83%3A0x9e393ace5ce9e5be!2sSomalia!5e0!3m2!1sde!2sat!4v1640894598525!5m2!1sde!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+                <!-- TODO: Standort vom Land: 1. maps.google.com 2. Land suchen 3. auf "Share/Teilen gehen" 4. auf Karte einbedden gehen 5. den Link kopieren und hier einfügen-->
             </div> 
         </div>
     </section>
 
+    <!-- hier braucht man nichts mehr verändern -->
     <section class="features-section">
         <div class="container">
             <table>
@@ -128,16 +160,20 @@
                     <div class="col">
                         Limesstraße 14, <br>
                         HTBLA Leonding <br>
+                        a.gabeljic@students.htl-leonding.ac.at
                     </div>
                     <div class="col">
                         Limesstraße 14, <br>
                         HTBLA Leonding <br>
+                        e.abazovic@students.htl-leonding.ac.at
                     </div>
                 </div>
             </table>
+            <img src="images/htl.jpg" style="width: 20em; height: 18em; padding-right: 2em;" alt="HTBLA Leonding"> <!-- Bild je nach Kontinentfarbe ändern (sieht sonst manchmal scheisse aus HAHAH)-->
         </div>
-        
     </section>
+    <p style="background-color: black; height: 4em;"></p>
+    
 
     <script>
         const mobileBtn = document.getElementById('mobile-cta')
@@ -151,8 +187,6 @@
         mobileBtnExit.addEventListener('click', () => {
             nav.classList.remove('menu-btn');
         })
-
-
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
