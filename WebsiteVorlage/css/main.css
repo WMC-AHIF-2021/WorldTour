@@ -134,12 +134,12 @@ ul.features-list li:before {
   display: none;
 }
 
-.testimonials-section {
+.information-section {
   background: var(--primary-color);
   color: white;
 }
 
-.testimonials-section li {
+.information-section li {
   background: #fff23f; /* TODO: Farbe pro Kontinent wechseln #006BD6*/
   text-align: center;
   padding: 2em 1em;
@@ -148,7 +148,7 @@ ul.features-list li:before {
   border-radius: 1em;
 }
 
-.testimonials-section li img {
+.information-section li img {
   width: 5em;
   height: 5em;
   border: 5px solid #fff23f; /* TODO: Farbe pro Kontinent wechseln #006BD6*/
@@ -228,14 +228,9 @@ nav li a:hover {
   font-weight: bold;
 }
 
-.mobile-menu-exit {
-  float: right;
-  margin: .5em;
-  cursor: pointer;
-}
 
 @media only screen and (min-width: 768px) {
-  .mobile-menu, .mobile-menu-exit {
+  .mobile-menu {
     display: none;
     float: right;
   }
@@ -277,14 +272,14 @@ nav li a:hover {
   .navbar nav li.current a {
     font-weight: bold;
   }
-  .navbar nav li.go-premium-cta a {
+  .navbar nav li.contact-cta a {
     color: var(--primary-color);
     border: 3px solid var(--primary-color);
     font-weight: bold;
     border-radius: 5em;
     margin-top: -.2em;
   }
-  .navbar nav li.go-premium-cta a:hover {
+  .navbar nav li.contact-cta a:hover {
     background: var(--primary-color);
     color: white;
   }
@@ -355,30 +350,30 @@ nav li a:hover {
     width: 350px;
     bottom: -2em;
   }
-  .testimonials-section ul {
+  .information-section ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .testimonials-section ul li {
+  .information-section ul li {
     margin: 0 1em;
   }
-  .contact-section {
+  .location-section {
     position: relative;
   }
-  .contact-section .container {
+  .location-section .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .contact-right {
+  .location-right {
     position: absolute;
     right: 0;
     top: 0;
     width: 45%;
     height: 100%;
   }
-  .contact-right iframe {
+  .location-right iframe {
     height: 100%;
   }
 }
