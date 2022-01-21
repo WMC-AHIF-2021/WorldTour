@@ -200,6 +200,11 @@ nav.menu-btn {
   display: block;
 }
 
+.carousel-images {
+  width: 621;
+  height: 522;
+}
+
 nav {
   position: fixed;
   z-index: 999;
