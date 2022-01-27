@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
-  --primary-color: #fdff7a; /* TODO: Farbe pro Kontinent wechseln #007AF3*/
+  --primary-color: #9e13e4; 
 }
 
 body {
@@ -41,7 +41,7 @@ body {
   cursor: pointer;
 }
 
-a {
+.a {
   color: #5f5f5f;
 }
 
@@ -58,6 +58,11 @@ section {
 .hero {
   text-align: center;
   background-color: rgb(242, 242, 242);
+}
+
+.carousel-images {
+  width: 621;
+  height: 522;
 }
 
 .left-col .subhead {
@@ -140,7 +145,7 @@ ul.features-list li:before {
 }
 
 .information-section li {
-  background: #fff23f; /* TODO: Farbe pro Kontinent wechseln #006BD6*/
+  background: #8409dc; 
   text-align: center;
   padding: 2em 1em;
   width: 80%;
@@ -151,7 +156,7 @@ ul.features-list li:before {
 .information-section li img {
   width: 5em;
   height: 5em;
-  border: 5px solid #fff23f; /* TODO: Farbe pro Kontinent wechseln #006BD6*/
+  border: 5px solid #8409dc; 
   border-radius: 50%;
   margin-top: -4.5em;
 }
@@ -165,30 +170,6 @@ label {
   display: block;
   font-size: 1.2em;
   margin-bottom: .5em;
-}
-
-input, textarea {
-  width: 100%;
-  padding: .8em;
-  margin-bottom: 1em;
-  border-radius: .3em;
-  border: 1px solid gray;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-input[type="submit"] {
-  background-color: var(--primary-color);
-  color: white;
-  font-weight: bold;
-  font-size: 1.3em;
-  border: none;
-  margin-bottom: 5em;
-  border-radius: 5em;
-  display: inline-block;
-  padding: .8em 2em;
-  width: unset;
-  cursor: pointer;
 }
 
 iframe {
@@ -227,7 +208,6 @@ nav li a {
 nav li a:hover {
   font-weight: bold;
 }
-
 
 @media only screen and (min-width: 768px) {
   .mobile-menu {
@@ -367,7 +347,7 @@ nav li a:hover {
     display: flex;
   }
   .location-right {
-    position: absolute;
+   position: absolute;
     right: 0;
     top: 0;
     width: 45%;
@@ -398,4 +378,3 @@ nav li a:hover {
     top: 2em;
   }
 }
-/*# sourceMappingURL=main.css.map */
