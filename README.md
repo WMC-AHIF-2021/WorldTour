@@ -2,7 +2,7 @@
 
 # Y*our* [World] T*our*
 
-A website that displays you a map of the globe including all the continents and countries to choose from and gives you the ability take an online trip through various cultures.
+A website that displays you a map of the globe including all the continents and countries to choose from and gives you the ability take an online trip through various cultures: [Our Website](https://wmc-ahif-2021.github.io/WorldTour/)
 
 <br/>
 
