@@ -1,8 +1,8 @@
 <font size="4">
 
-# Y*our* [World] T*our*
+# *World Tour*
 
-A website that displays you a map of the globe including all the continents and countries to choose from and gives you the ability take an online trip through various cultures: [Our Website](https://wmc-ahif-2021.github.io/WorldTour/)
+A website that displays you <b> a map of the globe including all the continents </b> and <b> countries </b> to choose from and gives you the <b> ability take an online trip through various cultures. </b>
 
 <br/>
 
@@ -19,21 +19,21 @@ We are putting our focus on the cultures, recipes, sights and the population of 
 ### Dynamic Part:
 
 In order to select a country you have to klick on a continent on the 3D-globe to get a zoomed-in and more detailed version. When the user has chosen the desired destination, a simulated airplane makes its way to it. From there on, it shows the user all the information about the country.
-In the second semester, we want to use the online data resource and provide a request formular for data from the site: [Our World Data](https://ourworldindata.org/)
+In the second semester, we want to use the online data resource and provide a request formular for data from this site [here](https://ourworldindata.org/)
 
 <br/>
 
 ## **Milestones**
 
-1. Research on recipes, cultures, sights and population of each country until Halloween (31.10.2022).
+&check; Research on recipes, cultures, sights and population of each country until Halloween (31.10.2022)
 
-2. Design a logo, the website and 3D-globe with all destinations until the semester break (27.02.2022).
+&check; Design a logo, the main Website as well as the websites from every country and upload it til (11.02.2021) 
 
-3. Display all countries on the 3D-world and be able to click on them until the end of the year.
+&#9744; Include simulated air plane that pops up when you go to our website.
 
-4. Insert information to each country and simulate air plane by end of submission.
+&#9744; Design the 3D-globe with all destinations and display all countries on it so that you are able to click on them until the end of the year.
 
-5. Presentation< on the agreed date.
+&#9744; Presentation on the agreed date.
 
 <br/>
 
@@ -57,7 +57,7 @@ In the second semester, we want to use the online data resource and provide a re
 
 * Abazovic Emina
   * Research: North America, Europe
-  * 3D-Globe 
+  * 3D-Globe 'leader'
 * Gabeljic Amina 
   * Research: South America, Africa
   * Website Design
@@ -65,3 +65,5 @@ In the second semester, we want to use the online data resource and provide a re
   * Research: Asia, Australia 
   * Webite Design
   * Project leader
+
+##
