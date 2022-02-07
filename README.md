@@ -56,7 +56,7 @@ In the second semester, we want to use the online data resource and provide a re
 ## **Project Members**
 
 * Abazovic Emina
-  * Research: North America, Europe
+  * Research: North America, Europe, Antarctis
   * 3D-Globe 'leader'
 * Gabeljic Amina 
   * Research: South America, Africa
