@@ -26,6 +26,11 @@ body {
   margin-top: 3em;
 }
 
+.worldmap {
+  margin-top: 2em;
+  margin-left: 8em;
+}
+
 .navbar, .carousel {
   border-bottom: 1px solid #888;
 }
@@ -73,6 +78,7 @@ body {
 .footer {
   font-size: 1em;
   text-align: center;
+  border-top: 1px solid #888;
 }
 
 blockquote {
