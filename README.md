@@ -57,7 +57,7 @@ In the second semester, we want to use the online data resource and provide a re
 
 * Abazovic Emina
   * Research: North America, Europe, Antarctis
-  * 3D-Globe 'leader'
+  * 2D-map
 * Gabeljic Amina 
   * Research: South America, Africa
   * Website Design
