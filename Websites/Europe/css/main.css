@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
-  --primary-color: #fdff7a; /* TODO: Farbe pro Kontinent wechseln #007AF3*/
+  --primary-color: rgb(73, 148, 247); 
 }
 
 body {
@@ -140,7 +140,7 @@ ul.features-list li:before {
 }
 
 .information-section li {
-  background: #fff23f; /* TODO: Farbe pro Kontinent wechseln #006BD6*/
+  background: rgb(9, 114, 250); 
   text-align: center;
   padding: 2em 1em;
   width: 80%;
@@ -151,7 +151,7 @@ ul.features-list li:before {
 .information-section li img {
   width: 5em;
   height: 5em;
-  border: 5px solid #fff23f; /* TODO: Farbe pro Kontinent wechseln #006BD6*/
+  border: 5px solid rgb(9, 114, 250); 
   border-radius: 50%;
   margin-top: -4.5em;
 }
@@ -165,30 +165,6 @@ label {
   display: block;
   font-size: 1.2em;
   margin-bottom: .5em;
-}
-
-input, textarea {
-  width: 100%;
-  padding: .8em;
-  margin-bottom: 1em;
-  border-radius: .3em;
-  border: 1px solid gray;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-input[type="submit"] {
-  background-color: var(--primary-color);
-  color: white;
-  font-weight: bold;
-  font-size: 1.3em;
-  border: none;
-  margin-bottom: 5em;
-  border-radius: 5em;
-  display: inline-block;
-  padding: .8em 2em;
-  width: unset;
-  cursor: pointer;
 }
 
 iframe {
