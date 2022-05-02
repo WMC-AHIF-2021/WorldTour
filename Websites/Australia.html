@@ -1,51 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"/>
-    <link rel="icon" href="images/AustraliaMap.png">
-    <link rel="stylesheet" href="../style.css">
-    <title>Australia Map</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script
+    src="https://kit.fontawesome.com/856a04ad70.js"
+    crossorigin="anonymous"
+  ></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"/>
+  <link rel="icon" href="images/AustraliaMap.png">
+  <link rel="stylesheet" href="../style.css">
+  <title>Australia Map</title>
 </head>
+
 <body class="bg-dark container">
-
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-lg-3 sticky-top">
-        <div class="container">
-          <a class="navbar-brand fw-bold fs-2" href="../index.html">
-              <i style="font-style:normal;">World<span style="color: rgb(166, 90, 221)">Tour</span></i>
-          </a>
-  
-          <button class="navbar-toggler btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
-              <li class="nav-item mx-lg-2">
-                <div class="btn-group">
-                    <button type="button" style="font-size: 1em;" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-lg-3 sticky-top" style=" background-color: #A8B1D8;" >
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold fs-2" href="../index.html">
+          <i style="font-style:normal;">World<span style="color: rgb(166, 90, 221)">Tour</span></i>
+        </a>
+        <button class="navbar-toggler btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
+            <div class="dropdown">
+              <div class="collapse navbar-collapse" id="navbarNavLightDropdown">
+                <ul class="navbar-nav"> 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" style="color: #ffffff;" role="button"  data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
                       Nations
-                    </button>
-
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                      <li><a class="dropdown-item" href="Australia/australia.html">Australia</a></li>
+                    </a>   
+                     <ul class="dropdown-menu"  aria-labelledby="navbarLightDropdownMenuLink">
+                      <div class="dropdown-content"> 
+                      <li class="dropdown-submenu">
+                      <a class="test" href="#">A<span class="navbar-toggler-icon"></span></a>  
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Australia/australia.html">Australia</a></li>
+                        </ul>
+                      </li>
+    
+                      <li class="dropdown-submenu">
+                        <a class="test" href="#">F<span class="caret"></span></a>  
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Australia/fiji.html">Fiji</a></li>
+                        </ul>
+                      </li>
+    
+                      <li class="dropdown-submenu">
+                        <a class="test" href="#">K<span class="caret"></span></a>  
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Australia/kiribati.html">Kiribati</a></li>
+                        </ul>
+                      </li>
+    
+                      <li class="dropdown-submenu">
+                        <a class="test" href="#">M<span class="caret"></span></a>  
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Australia/marshallIslands.html">Marshall Islands</a></li>
+                          <li><a class="dropdown-item" href="Australia/micronesia.html">Micronesia</a></li>
+                        </ul>
+                      </li>
+    
+                      <li class="dropdown-submenu">
+                        <a class="test" href="#">N<span class="caret"></span></a>  
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Australia/nauru.html">Nauru</a></li>
+                          <li><a class="dropdown-item" href="Australia/newZealand.html">New Zealand</a></li>
+                        </ul>
+                      </li>
+    
+                      <li class="dropdown-submenu">
+                        <a class="test" href="#">P<span class="caret"></span></a>  
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Australia/palau.html">Palau</a></li>
+                          <li><a class="dropdown-item" href="Australia/papuaNewGuinea.html">Papua New Guinea</a></li>
+                        </ul>
+                      </li>
+    
+                      <li class="dropdown-submenu">
+                        <a class="test" href="#">S<span class="caret"></span></a>  
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Australia/salomonIslands.html">Salomon Islands</a></li>
+                        </ul>
+                      </li>
                     </ul>
-                  </div>
-              </li>
-              <li class="nav-item mx-lg-2">
-                <a class="nav-link text-white" href="../#globe">Back to 3D-Globe</a>
-              </li>
-              <li class="nav-item mx-lg-2">
-                <a class="nav-link text-white" href="../#about">About us</a>
-              </li>
-            </ul>
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link text-white" href="../#globe">Back to 3D-Globe</a>
+                      </li>
+                      <li class="nav-item mx-lg-2">
+                        <a class="nav-link text-white" href="../#about">About us</a>
+                      </li>
+                  </li>
+                </ul>            
+              </div>
+                </div>
+            </div>
+            </div>
           </div>
         </div>
-      </nav>
+
+        <script>
+            $(document).ready(function(){
+                $('.dropdown-submenu a.test').on("click", function(e){
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+                });
+            });
+
+            document.querySelectorAll('.dropdown-menu').forEach(function(element){
+                element.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                });
+                })
+         </script>
+        </div>
+      </div>
+    </nav>
 
     <!-- Continent Image -->
     <img src="images/AustraliaMap.png" alt="AustraliaMap" usemap="#AustraliaMap">
@@ -67,6 +143,10 @@
       <area target="" alt="Tuvalu" title="Tuvalu" href="Australia/tuvalu.html" coords="1260,184,1187,229,1248,326,1311,261" shape="poly">
       <area target="" alt="Vanuatu" title="Vanuatu" href="Australia/vanuatu.html" coords="1128,402,1040,324,913,355,1066,459" shape="poly">
     </map>
-
+  <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"
+  ></script>
 </body>
 </html>
