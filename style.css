@@ -107,3 +107,52 @@ blockquote {
   height: 10em;
   animation: globe 1s ease infinite alternate;
 }
+
+
+
+
+.dropdown-submenu { /*dropdown to dropdown Funktion*/
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-submenu .dropdown-menu { /*dropdown to dropdown einstellungen*/
+  top: 1;
+  left: 100%;
+  margin-top: -20px;
+}
+
+.dropdown-menu {
+  background-color: rgba(68, 63, 63, 0.6); 
+}
+
+.dropdown-content {
+  display: inline;
+ /* display: none;*/
+  position: absolute;
+  background-color: rgba(68, 63, 63, 0.6); /*Hintergrund des Dropdowns*/
+  min-width: 160px; /*Breite der Dropdown Box*/
+   z-index: 1;
+}
+
+.dropdown-content a { /*Farbe der Buchstaben im Dropdown*/
+  color: #ffffff;
+  padding: 3px 5px;
+  text-decoration: none;
+  font: bold;
+  display: block;
+}
+
+.dropdown-content .dropdown-submenu a { /*Farbe der Buchstaben im Dropdown*/
+  color: #ffffff;
+  padding: 3px 5px;
+  text-decoration: none;
+  font: bold;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(68, 63, 63, 0.6);} /*Farbe des Dropdowns*/
+
+.dropdown:hover .dropdown-content { /*dropdown Funktion*/
+  display: block;
+}
