@@ -18,7 +18,7 @@ We are putting our focus on the cultures, recipes, sights and the population of 
 
 ### Dynamic Part:
 
-In order to select a country you have to klick on a continent on the 3D-globe to get a zoomed-in and more detailed version. When the user has chosen the desired destination, a simulated airplane makes its way to it. From there on, it shows the user all the information about the country.
+In order to select a country you have to klick on a continent on the 2D-map to get a zoomed-in and more detailed version. When the user has chosen the desired destination, a simulated airplane makes its way to it. From there on, it shows the user all the information about the country.
 In the second semester, we want to use the online data resource and provide a request formular for data from this site [here](https://ourworldindata.org/)
 
 <br/>
@@ -29,9 +29,11 @@ In the second semester, we want to use the online data resource and provide a re
 
 &check; Design a logo, the main Website as well as the websites from every country and upload it til (11.02.2021) 
 
-&#9744; Include simulated air plane that pops up when you go to our website.
+&check; Include an animated loading screen with our logo.
 
-&#9744; Design the 3D-globe with all destinations and display all countries on it so that you are able to click on them until the end of the year.
+&#9744; Design the 2D-map with all destinations and display all countries on it so that you are able to click on them until the end of the year.
+ 
+&#9744; Create quizzes about the world
 
 &#9744; Presentation on the agreed date.
 
@@ -57,8 +59,7 @@ In the second semester, we want to use the online data resource and provide a re
 
 * Abazovic Emina
   * Research: North America, Europe, Antarctis
-  * 3D-Glode 'leader'
-  * 2D-map
+  * 2D-map Design
 * Gabeljic Amina 
   * Research: South America, Africa
   * Website Design
