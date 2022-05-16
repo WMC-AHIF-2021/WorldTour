@@ -22,7 +22,7 @@ body {
   color: rgb(53, 157, 253);
 }
 
-#preface, #globe, #about, #quiz {
+#preface, #globe, #about, #quiz, #population {
   margin-top: 3em;
 }
 
@@ -151,8 +151,19 @@ blockquote {
   display: block;
 }
 
+.dropdown-content {
+  padding: 0rem;
+}
+
 .dropdown-content a:hover {background-color: rgba(68, 63, 63, 0.6);} /*Farbe des Dropdowns*/
 
 .dropdown:hover .dropdown-content { /*dropdown Funktion*/
   display: block;
+}
+
+img {
+  display: block;
+  margin: 80%;
+  margin: 0 auto;
+  transition: 0.3s;
 }
