@@ -49,7 +49,6 @@
                                             <li><a class="dropdown-item" href="Africa/angola.html">Angola</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">B<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
@@ -59,7 +58,6 @@
                                             <li><a class="dropdown-item" href="Africa/burundi.html">Burundi</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">C<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
@@ -72,7 +70,6 @@
                                             <li><a class="dropdown-item" href="Africa/côteD'lvoire_Elfenbeinkueste.html">CôteD'lvoire</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">D<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
@@ -80,7 +77,6 @@
                                             <li><a class="dropdown-item" href="Africa/djibouti.html">Djibouti</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">E<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
@@ -90,7 +86,6 @@
                                             <li><a class="dropdown-item" href="Africa/ethiopia.html">Ethiopia</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">G<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
@@ -101,14 +96,12 @@
                                             <li><a class="dropdown-item" href="Africa/guinea.html">Guinea</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">K<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="Africa/kenya.html">Kenya</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">L<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
@@ -117,19 +110,17 @@
                                             <li><a class="dropdown-item" href="Africa/libya.html">Libya</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">M<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="Africa/madagascar.html">Madagascar</a></li>
                                             <li><a class="dropdown-item" href="Africa/malawi.html">Malawi</a></li>
                                             <li><a class="dropdown-item" href="Africa/mauritania.html">Mauritania</a></li>
-                                            <li><a class="dropdown-item" href="Africa/mauritius.html">Mauritius</li>
+                                            <li><a class="dropdown-item" href="Africa/mauritius.html">Mauritius</a></li>
                                             <li><a class="dropdown-item" href="Africa/morocco.html">Morocco</a></li>
                                             <li><a class="dropdown-item" href="Africa/mozambique.html">Mozambique</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">N<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
@@ -138,14 +129,12 @@
                                             <li><a class="dropdown-item" href="Africa/nigeria.html">Nigeria</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">R<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="Africa/rwanda.html">Rwanda</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">S<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
@@ -160,7 +149,6 @@
                                             <li><a class="dropdown-item" href="Africa/swaziland.html">Swaziland</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">T<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
@@ -169,7 +157,6 @@
                                             <li><a class="dropdown-item" href="Africa/tunisia.html">Tunisia</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown-submenu">
                                         <a class="test" href="#">U<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
@@ -189,216 +176,30 @@
                                             <li><a class="dropdown-item" href="Africa/zimbabwe.html">Zimbabwe</a></li>
                                         </ul>
                                     </li>
-                                </ul>
-                            </li>
+                                </div>
+                            </ul>
                         </li>
-                    </ul>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
+        <script>
+            $(document).ready(function(){
+                $('.dropdown-submenu a.test').on("click", function(e){
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+
+            document.querySelectorAll('.dropdown-menu').forEach(function(element){
+                element.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                });
+            })
+        </script>
     </nav>
-    <!-- Navigation -->
-    <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-lg-3 sticky-top">
-        <div class="container">
-          <a class="navbar-brand fw-bold fs-2" href="../index.html">
-              <i style="font-style:normal;">World<span style="color: yellow">Tour</span></i>
-          </a>
-          <button class="navbar-toggler btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
-              <div class="dropdown">
-                <div class="collapse navbar-collapse" id="navbarNavLightDropdown">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4"> 
-                    <li class="nav-item mx-lg-2 dropdown">
-                      <a class="nav-link text-white dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" style="color: #ffffff;" role="button"  data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
-                        Nations
-                      </a>   
-                       <ul class="dropdown-menu"  aria-labelledby="navbarLightDropdownMenuLink">
-                        <div class="dropdown-content"> 
-                        <li class="dropdown-submenu">
-                        <a class="test" href="#">A<span class="navbar-toggler-icon"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/algeria.html">Algeria</a></li>
-                            <li><a class="dropdown-item" href="Africa/angola.html">Angola</a></li>
-                          </ul>
-                        </li>
-                      
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">B<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/benin.html">Benin</a></li>
-                            <li><a class="dropdown-item" href="Africa/botswana.html">Botswana</a></li>
-                            <li><a class="dropdown-item" href="Africa/burkinaFaso.html">Burkina Faso</a></li>
-                            <li><a class="dropdown-item" href="Africa/burundi.html">Burundi</a></li>
-                          </ul>
-                        </li>
-      
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">C<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/cameroon.html">Cameroon</a></li>
-                            <li><a class="dropdown-item" href="Africa/capeVerde.html">Cape Verde</a></li>
-                            <li><a class="dropdown-item" href="Africa/centralAfricanRepublic.html">Central African Republic</a></li>
-                            <li><a class="dropdown-item" href="Africa/chad.html">Chad</a></li>
-                            <li><a class="dropdown-item" href="Africa/comoros.html">Comoros</a></li>
-                            <li><a class="dropdown-item" href="Africa/congoRepublic.html">Congo Republic</a></li>
-                            <li><a class="dropdown-item" href="Africa/côteD'lvoire_Elfenbeinkueste.html">CôteD'lvoire</a></li>
-                          </ul>
-                        </li>
-                        
-                        <li class="dropdown-submenu">
-                            <a class="test" href="#">D<span class="caret"></span></a>  
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="Africa/democraticRepublicOfTheCongo.html">Democratic Republic Of Congo</a></li>
-                              <li><a class="dropdown-item" href="Africa/djibouti.html">Djibouti</a></li>
-                            </ul>
-                          </li>
-
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">E<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/egypt.html">Egypt</a></li>
-                            <li><a class="dropdown-item" href="Africa/equatorialGuinea.html">Equatorial Guinea</a></li>
-                            <li><a class="dropdown-item" href="Africa/eritrea.html">Eritrea</a></li>
-                            <li><a class="dropdown-item" href="Africa/ethiopia.html">Ethiopia</a></li>
-                          </ul>
-                        </li>
-      
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">G<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/gabon.html">Gabon</a></li>
-                            <li><a class="dropdown-item" href="Africa/gambia.html">Gambia</a></li>
-                            <li><a class="dropdown-item" href="Africa/ghana.html">Ghana</a></li>
-                            <li><a class="dropdown-item" href="Africa/guinea-bissau.html">Guinea-Bissau</a></li>
-                            <li><a class="dropdown-item" href="Africa/guinea.html">Guinea</a></li>
-                          </ul>
-                        </li>
-      
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">K<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/kenya.html">Kenya</a></li>
-                          </ul>
-                        </li>
-      
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">L<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/lesotho.html">Lesotho</a></li>
-                            <li><a class="dropdown-item" href="Africa/liberia.html">Liberia</a></li>
-                            <li><a class="dropdown-item" href="Africa/libya.html">Libya</a></li>
-                          </ul>
-                        </li>
-      
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">M<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/madagascar.html">Madagascar</a></li>
-                            <li><a class="dropdown-item" href="Africa/malawi.html">Malawi</a></li>
-                            <li><a class="dropdown-item" href="Africa/mauritania.html">Mauritania</a></li>
-                            <li><a class="dropdown-item" href="Africa/mauritius.html">Mauritius</li>
-                            <li><a class="dropdown-item" href="Africa/morocco.html">Morocco</a></li>
-                            <li><a class="dropdown-item" href="Africa/mozambique.html">Mozambique</a></li>
-                          </ul>
-                        </li>
-      
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">N<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/namibia.html">Namibia</a></li>
-                            <li><a class="dropdown-item" href="Africa/niger.html">Niger</a></li>
-                            <li><a class="dropdown-item" href="Africa/nigeria.html">Nigeria</a></li>
-                          </ul>
-                        </li>
-      
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">R<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/rwanda.html">Rwanda</a></li>
-                          </ul>
-                        </li>
-      
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">S<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/saõTómeandPríncipe.html">SaõTómeand Príncipe</a></li>
-                            <li><a class="dropdown-item" href="Africa/senegal.html">Senegal</a></li>
-                            <li><a class="dropdown-item" href="Africa/seychelles.html">Seychelles</a></li>
-                            <li><a class="dropdown-item" href="Africa/sierraLeone.html">Sierra Leone</a></li>
-                            <li><a class="dropdown-item" href="Africa/somalia.html">Somalia</a></li>
-                            <li><a class="dropdown-item" href="Africa/southAfrica.html">South Africa</a></li>
-                            <li><a class="dropdown-item" href="Africa/southSudan.html">South Sudan</a></li>
-                            <li><a class="dropdown-item" href="Africa/sudan.html">Sudan</a></li>
-                            <li><a class="dropdown-item" href="Africa/swaziland.html">Swaziland</a></li>
-                          </ul>
-                        </li>
-      
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">T<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/tanzania.html">Tanzania</a></li>
-                            <li><a class="dropdown-item" href="Africa/togo.html">Togo</a></li>
-                            <li><a class="dropdown-item" href="Africa/tunisia.html">Tunisia</a></li>
-                          </ul>
-                        </li>
-  
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">U<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/uganda.html">Uganda</a></li>
-                          </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">W<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/westernSahara.html">Western Sahara</a></li>
-                          </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                          <a class="test" href="#">Z<span class="caret"></span></a>  
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Africa/zambia.html">Zambia</a></li>
-                            <li><a class="dropdown-item" href="Africa/zimbabwe.html">Zimbabwe</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>   
-                  <li class="nav-item mx-lg-2">
-                    <a class="nav-link text-white" href="../#globe">Back to 2D-Map</a>
-                  </li>
-                  <li class="nav-item mx-lg-2">
-                    <a class="nav-link text-white" href="../#about">About us</a>
-                  </li>         
-                </div>
-                </div>
-              </div>
-              </div>
-            </div>
-          </div>
-  
-          <script>
-              $(document).ready(function(){
-                  $('.dropdown-submenu a.test').on("click", function(e){
-                  $(this).next('ul').toggle();
-                  e.stopPropagation();
-                  e.preventDefault();
-                  });
-              });
-  
-              document.querySelectorAll('.dropdown-menu').forEach(function(element){
-                  element.addEventListener('click', function (e) {
-                      e.stopPropagation();
-                  });
-                  })
-           </script>
-          </div>
-        </div>
-    </nav>-->
 
     <!-- Continent Image -->
     <div class="container">
