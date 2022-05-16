@@ -22,7 +22,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-lg-3 sticky-top">
-      <div class="container">
+      <ul class="container">
         <a class="navbar-brand fw-bold fs-2" href="#">
             <i></i>World<span class="textcolor">Tour</span>
         </a>
@@ -31,7 +31,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
             <li class="nav-item mx-lg-2">
               <a class="nav-link text-white" href="#preface">Preface</a>
@@ -40,14 +40,45 @@
               <a class="nav-link text-white" href="#globe"> 2D-Map </a>
             </li>
             <li class="nav-item mx-lg-2">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
+                <li class="nav-item mx-lg-2 dropdown">
+                  <a class="nav-link text-white dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" style="color: #ffffff;" role="button"  data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                    Continents
+                  </a>
+                  <ul class="dropdown-menu" id="indexDropdown" aria-labelledby="navbarLightDropdownMenuLink">
+                    <div class="dropdown-content">
+                      <li class="dropdown-submenu">
+                        <a href="Websites/Africa.html">Africa</a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a href="Websites/Asia.html">Asia</a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a href="Websites/Australia.html">Australia</a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a href="Websites/Europe.html">Europe</a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a href="Websites/NorthAmerica.html">North America</a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a href="Websites/SouthAmerica.html">South America</a>
+                      </li>
+                    </div>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-lg-2">
               <a class="nav-link text-white" href="#about">About us</a>
             </li>
             <li>
               <a href="https://www.instagram.com/ourworldtour202122/" target="_blank" class="icon-link text-white"><i class="fab fa-instagram fa-lg mx-2"></i></a>
             </li>
           </ul>
-        </div>
-      </div>
+        </ul>
+      </ul>
     </nav>
 
     <!-- Slide -->
@@ -128,6 +159,24 @@
         <area target="" alt="Antarctica" title="Antarctica" href="Websites/Antarctica.html" coords="1280,721,1080,686,836,671,637,698,480,727,366,730,362,807,1334,798" shape="poly">
       </map>
     </div>
+
+    <!-- Population Groth -->
+    <div id="population" class="container">
+      <h1 class="textcolor fw-bold">Population Growth</h1>
+      <p>
+        This timeline shows you the population growth over the world from 1900 until now.
+      </p>
+      <img src="" id="image">
+      <script type="text/javascript">
+        let image = document.getElementById('image');
+        let images = ['images/amina_snap_id.jpeg', 'images/china-lanterns.png', 'images/city.jpeg', 'concert.jpg'];
+        setInterval(function() {
+          /*for (let i = 0; i < 4; i++) {
+            image.src = images[i];
+          }*/
+        }, 800);
+      </script>
+   </div>
     
     <!-- Area for Quiz -->
     <div id="quiz" class="container">
@@ -137,7 +186,6 @@
         </p>
       
     </div>
-
 
     <!-- Über uns -->
     <div id="about" class="container">

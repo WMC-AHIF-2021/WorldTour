@@ -26,6 +26,10 @@ body {
   margin-top: 3em;
 }
 
+#indexDropdown {
+  font-size: 0.85em;
+}
+
 .navbar, .carousel {
   border-bottom: 1px solid #888;
 }
