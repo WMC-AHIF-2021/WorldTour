@@ -10,7 +10,6 @@ const quizData = [
         continent: "Asia",
         country: "oman",
     },
-
     {
         flag: baseUrl + 'Europe/images/Moldova/Flag.png',
         continent: "Europe",
