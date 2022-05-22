@@ -158,3 +158,39 @@ img {
 .hint {
   font-size: 0.6em;
 }
+
+
+img {
+  display: block;
+  margin: 80%;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.playImg{
+  width: 80%;
+}
+
+.hidden{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playButton:hover{
+  background-color: antiquewhite;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
