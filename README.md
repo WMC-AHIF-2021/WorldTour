@@ -31,7 +31,7 @@ In the second semester, we want to use the online data resource and provide a re
 
 &check; Include an animated loading screen with our logo.
 
-&#9744; Design the 2D-map with all destinations and display all countries on it so that you are able to click on them until the end of the year.
+&check; Design the 2D-map with all destinations and display all countries on it so that you are able to click on them until the end of the year.
  
 &#9744; Create quizzes about the world
 
