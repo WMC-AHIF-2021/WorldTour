@@ -62,5 +62,173 @@
     {
       "id": 16,
       "name": "population-density1945"
-    }
+    },
+  {
+    "id": 17,
+    "name": "population-density1948"
+  },
+  {
+    "id": 18,
+    "name": "population-density1951"
+  },
+  {
+    "id": 19,
+    "name": "population-density1953"
+  },
+  {
+    "id": 20,
+    "name": "population-density1955"
+  },
+  {
+    "id": 21,
+    "name": "population-density1957"
+  },
+  {
+    "id": 22,
+    "name": "population-density1961"
+  },
+  {
+    "id": 23,
+    "name": "population-density1966"
+  },
+  {
+    "id": 24,
+    "name": "population-density1968"
+  },
+  {
+    "id": 25,
+    "name": "population-density1969"
+  },
+  {
+    "id": 26,
+    "name": "population-density1971"
+  },
+  {
+    "id": 27,
+    "name": "population-density1973"
+  },
+  {
+    "id": 28,
+    "name": "population-density1974"
+  },
+  {
+    "id": 29,
+    "name": "population-density1975csv"
+  },
+  {
+    "id": 30,
+    "name": "population-density1977"
+  },
+  {
+    "id": 31,
+    "name": "population-density1979"
+  },
+  {
+    "id": 32,
+    "name": "population-density1982"
+  },
+  {
+    "id": 33,
+    "name": "population-density1985"
+  },
+  {
+    "id": 34,
+    "name": "population-density1987"
+  },
+  {
+    "id": 35,
+    "name": "population-density1989"
+  },
+  {
+    "id": 36,
+    "name": "population-density1992"
+  },
+  {
+    "id": 37,
+    "name": "population-density1994"
+  },
+  {
+    "id": 38,
+    "name": "population-density1996"
+  },
+  {
+    "id": 39,
+    "name": "population-density1998"
+  },
+  {
+    "id": 40,
+    "name": "population-density2000"
+  },
+  {
+    "id": 41,
+    "name": "population-density2002"
+  },
+  {
+    "id": 42,
+    "name": "population-density2004"
+  },
+  {
+    "id": 43,
+    "name": "population-density2006"
+  },
+  {
+    "id": 44,
+    "name": "population-density2008"
+  },
+  {
+    "id": 45,
+    "name": "population-density2010"
+  },
+  {
+    "id": 46,
+    "name": "population-density2013"
+  },
+  {
+    "id": 47,
+    "name": "population-density2014"
+  },
+  {
+    "id": 48,
+    "name": "population-density2015"
+  },
+  {
+    "id": 49,
+    "name": "population-density2017"
+  },
+  {
+    "id": 50,
+    "name": "population-density2019"
+  },
+  {
+    "id": 51,
+    "name": "population-density2021"
+  },
+  {
+    "id": 52,
+    "name": "population-density2023"
+  },
+  {
+    "id": 53,
+    "name": "population-density2025"
+  },
+  {
+    "id": 54,
+    "name": "population-density2034"
+  },
+  {
+    "id": 55,
+    "name": "population-density2054"
+  },
+  {
+    "id": 56,
+    "name": "population-density2074"
+  },
+  {
+    "id": 57,
+    "name": "population-density2095"
+  },
+  {
+    "id": 58,
+    "name": "population-density2100"
+  }
 ]

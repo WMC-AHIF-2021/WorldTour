@@ -4,7 +4,6 @@ let MAX_RUNTIMES: number;
 let content: HTMLElement;
 let progressBar: HTMLElement;
 
-
 function fetchData(): void {
     fetch("picName.json")
         .then((res) => {
@@ -15,7 +14,6 @@ function fetchData(): void {
             setSimulator();
         });
 }
-
 
 function setSimulator(): void {
     MAX_RUNTIMES = picName.length - 1;
@@ -34,7 +32,7 @@ function runSimulation(): void{
         pic.src = `img/data/${picName[counter].name}.svg`;
         pic.id = `${picName[counter].id}`;
         progressBar.style.width = `${100 / (MAX_RUNTIMES) * counter}%`;
-    }, 1000);
+    }, 200);
 }
 
 document.addEventListener('DOMContentLoaded', ()=>{
