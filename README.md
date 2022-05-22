@@ -33,7 +33,7 @@ In the second semester, we want to use the online data resource and provide a re
 
 &check; Design the 2D-map with all destinations and display all countries on it so that you are able to click on them until the end of the year.
  
-&#9744; Create quizzes about the world
+&check; Create quizzes about the world
 
 &#9744; Presentation on the agreed date.
 
