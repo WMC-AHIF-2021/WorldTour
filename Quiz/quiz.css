@@ -17,6 +17,7 @@ body {
   border-bottom: 1px solid #888;
 }
 
+
 .quiz {
   background-color: rgba(68, 63, 63, 0.8);
   background-image: linear-gradient(315deg, rgba(68, 63, 63, 0.6) 0%, rgba(68, 63, 63, 0.6) 100%);
@@ -45,17 +46,22 @@ p {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px 2px rgba(68, 63, 63, 0.6);
-  width: 800px;
+  width: 700px;
   overflow: hidden;
 }
 
 .quiz-header{
-  padding: 4rem;
+  padding: 2.5rem;
+}
+
+h3 {
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
 }
 
 h2{
   padding: 1rem;
-  text-align: center;
   margin: 0;
 }
 
@@ -89,6 +95,66 @@ button{
   padding: 1.3rem;
 }
 
+.reloadButton {
+  background-color: rgb(53, 157, 253);
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+
+#next {
+  margin-top: 1.1em;
+  height: 4em;
+}
+
 button:hover{
   background-color: rgb(23, 109, 187);
+}
+
+input {
+  margin-right: 0.5em;
+}
+
+#submitCountry {
+  width: 25%;
+}
+
+img {
+  width: 100%;
+}
+
+.flagGuessingHeader {
+  margin-bottom: 0.6em;
+}
+
+.quizName {
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.points {
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  font-size: 0.8em;
+  margin-left: 40%;
+}
+
+#output {
+  margin-top: 0.5em;
+}
+
+#hintBtn {
+  width: 10%;
+  margin-left: 1em;
+}
+
+.hint {
+  font-size: 0.6em;
 }

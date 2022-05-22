@@ -233,7 +233,6 @@ function loadQuiz() {
     else {
         questionEl.innerHTML = `Question ${currentQuiz + 1}: <br><p>${currentQuizData.question}</p>`;
     }
-
     a_text.innerHTML = currentQuizData.a
     b_text.innerHTML = currentQuizData.b
     c_text.innerHTML = currentQuizData.c
