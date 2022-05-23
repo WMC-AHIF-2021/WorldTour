@@ -9,12 +9,12 @@ const quizData = [
         flag: baseUrl + 'Asia/images/oman/flag.jpg',
         continent: "Asia",
         country: "oman",
-    },
+    },/*
     {
         flag: baseUrl + 'Europe/images/Moldova/Flag.png',
         continent: "Europe",
         country: "moldova",
-    },
+    },*/
     {
         flag: baseUrl + 'Africa/images/namibia/namibia.png',
         continent: "Africa",
