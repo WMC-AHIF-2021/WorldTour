@@ -11,9 +11,9 @@ const quizData = [
         country: "oman",
     },
     {
-        flag: baseUrl + 'Europe/images/Hungary/Flag.jfif',
+        flag: baseUrl + 'Europe/images/Moldova/Flag.png',
         continent: "Europe",
-        country: "hungary",
+        country: "moldova",
     },
     {
         flag: baseUrl + 'Africa/images/namibia/namibia.png',
