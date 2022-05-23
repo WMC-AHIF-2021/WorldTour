@@ -48,7 +48,7 @@ var quizData = [
         country: "oman",
     },
     {
-        flag: baseUrl + 'Europe/images/moldova/Flag.png',
+        flag: baseUrl + 'Europe/images/Moldova/Flag.png',
         continent: "Europe",
         country: "moldova",
     },
