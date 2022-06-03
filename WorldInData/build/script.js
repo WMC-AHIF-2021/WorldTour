@@ -3,40 +3,85 @@ let counter = 0;
 let MAX_RUNTIMES;
 let content;
 let progressBar;
+let descriptionHeader;
+let descriptionParagraph;
+let descriptionImage;
+let pic;
+let mapPic;
+
+let isPaused = true;
+let intervalID;
+let doesIntervalAlreadyExist = false; //ob das Intervalll bereits schon mal gesetzt wurde / gelaufen ist --> dass es dann nicht 2 mal läuft...
+
 function fetchData() {
     fetch("picName.json")
         .then((res) => {
-        return res.json();
-    })
+            return res.json();
+        })
         .then((loadedPicName) => {
-        picName = loadedPicName;
-        setSimulator();
-    });
+            picName = loadedPicName;
+            setSimulator();
+        });
 }
 function setSimulator() {
     MAX_RUNTIMES = picName.length - 1;
     content = document.getElementById("picContent");
-    content.innerHTML = `<img class="show" id="${picName[counter].id}" alt="${picName[counter].name}" src="img/data/${picName[counter].name}.svg"/>`;
+    content.innerHTML = `<img class="show" id="mapImage" alt="${picName[counter].name}" src="img/data/${picName[counter].name}.svg"/>`;
     progressBar = document.getElementById('progress');
+    descriptionHeader = document.getElementById('descriptionHeader');
+    descriptionImage = document.getElementById('descriptionImage');
+    descriptionParagraph = document.getElementById('descriptionParagraph');
+
+    descriptionHeader.innerHTML = picName[counter].descriptionHeader;
+    descriptionParagraph.innerHTML = picName[counter].description;
 }
 function runSimulation() {
-    const intervalID = setInterval(() => {
-        if (++counter === MAX_RUNTIMES) {
-            window.clearInterval(intervalID);
-        }
-        console.log(counter);
-        let pic = document.getElementById(counter.toString());
-        pic.src = `img/data/${picName[counter].name}.svg`;
-        pic.id = `${picName[counter].id}`;
-        progressBar.style.width = `${100 / (MAX_RUNTIMES) * counter}%`;
-    }, 1000);
+    isPaused = !isPaused;
+    console.log("isPaused is now " + isPaused);
+    //nach jedem reset wird ein neues Intervall gesetzt (erzeugt) --> if--> intervall bereits erzeugt --> dann nicht nochmal erzeugen sonst laufen 2 (problem: fangen nicht zur selben sec an; beide würden es ausführen)
+    if (!doesIntervalAlreadyExist) { //wenn es noch kein Intervall gibt
+        doesIntervalAlreadyExist = true;
+
+        intervalID = setInterval(() => {
+            if(!isPaused) {
+                console.log("not paused");
+                if (++counter === MAX_RUNTIMES) {
+                    window.clearInterval(intervalID);
+                }
+                console.log(counter);
+                pic = document.getElementById("descriptionImage");
+                mapPic = document.getElementById("mapImage");
+                pic.src = `img/data/${picName[counter].name}.jpg`;
+                mapPic.src = `img/data/${picName[counter].name}.svg`; //src-attribute
+                //pic.id = `${picName[counter].id}`;
+                progressBar.style.width = `${100 / (MAX_RUNTIMES) * counter}%`;
+                descriptionHeader.innerHTML = picName[counter].descriptionHeader;
+                descriptionImage.innerHTML = `<img class="show" id="descriptionImage" alt="a simple image" src="../src/img/data/${picName[counter].name}.jpg"/>`;
+                descriptionParagraph.innerHTML = picName[counter].description;
+            }
+            else {
+                console.log("paused");
+            }
+        }, 1000);
+    }
+    //window.clearInterval(intervalID);
 }
 document.addEventListener('DOMContentLoaded', () => {
     fetchData();
-    document.getElementById("reset").addEventListener("click", () => {
+    document.getElementById("resetPlayButton").addEventListener("click", () => {
+
+        window.clearInterval(intervalID); //Intervall wird wieder gelöscht
+        doesIntervalAlreadyExist = false; //Intervall wurde resetet
+
         counter = 0;
         progressBar.style.width = "0%";
-        content.innerHTML = `<img class="show" id="${picName[counter].id}" alt="${picName[counter].name}" src="img/data/${picName[counter].name}.svg"/>`;
+        //content = document.getElementById("picContent");
+        //content.innerHTML = `<img class="show" id="mapImage" alt="${picName[0].name}" src="img/data/${picName[0].name}.svg"/>`;
+        //content.innerHTML = `<img class="show" id="${picName[counter].id}" alt="${picName[counter].name}" src="img/data/${picName[counter].name}.svg"/>`;
+        pic.src = `img/data/${picName[counter].name}.jpg`;
+        mapPic.src = `img/data/${picName[counter].name}.svg`;
+        descriptionHeader.innerHTML = picName[counter].descriptionHeader;
+        //descriptionImage.innerHTML = `<img class="show" id="descriptionImage" alt="a simple image" src="img/data/${picName[0].name}.jpg"/>`;
+        descriptionParagraph.innerHTML = picName[counter].description; //description, images, etc. nach dem Reset wieder auf das erste zrkstellen
     });
 });
-//# sourceMappingURL=script.js.map
