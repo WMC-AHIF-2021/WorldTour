@@ -1,234 +1,356 @@
 [
-    {
-      "id": 1,
-      "name": "population-density1892"
-    },
-    {
-      "id": 2,
-      "name": "population-density1902"
-    },
-    {
-      "id": 3,
-      "name": "population-density1905"
-    },
-    {
-      "id": 4,
-      "name": "population-density1908"
-    },
-    {
-      "id": 5,
-      "name": "population-density1912"
-    },
-    {
-      "id": 6,
-      "name": "population-density1916"
-    },
-    {
-      "id": 7,
-      "name": "population-density1919"
-    },
-    {
-      "id": 8,
-      "name": "population-density1921"
-    },
-    {
-      "id": 9,
-      "name": "population-density1925"
-    },
-    {
-      "id": 10,
-      "name": "population-density1928"
-    },
-    {
-      "id": 11,
-      "name": "population-density1931"
-    },
-    {
-      "id": 12,
-      "name": "population-density1932"
-    },
-    {
-      "id": 13,
-      "name": "population-density1934"
-    },
-    {
-      "id": 14,
-      "name": "population-density1937"
-    },
-    {
-      "id": 15,
-      "name": "population-density1940"
-    },
-    {
-      "id": 16,
-      "name": "population-density1945"
-    },
   {
-    "id": 17,
-    "name": "population-density1948"
+    "id":1,
+    "name":"population-density1892",
+    "descriptionHeader": "1892 - United States presidential election",
+    "description":"The 1892 United States presidential election was the 27th quadrennial presidential election, held on Tuesday, November 8, 1892. In a rematch of the closely contested 1888 presidential election, former Democratic President Grover Cleveland defeated incumbent Republican President Benjamin Harrison. Cleveland's victory made him the first and, to date, the only person in American history to be elected to a non-consecutive second presidential term. On top of that an anarchist bomb killed six in a police station in Avenue de l'Opéra in Paris and the four-day New Orleans General Strike began."
   },
   {
-    "id": 18,
-    "name": "population-density1951"
+    "id":2,
+    "name":"population-density1902",
+    "descriptionHeader": "1902 - World Figure Skating Championships",
+    "description":"The World Figure Skating Championships is an annual figure skating competition sanctioned by the International Skating Union in which figure skaters compete for the title of World Champion.\nThe competition took place on 13 February in London, United Kingdom.\nIt was assumed that only men would compete in the event, and just four skaters participated. However, one of them was a woman, Madge Syers-Cave. After the competition, the winner, Ulrich Salchow, delighted with Syers, presented her with the gold medal he had just won. At the time, the International Skating Union rules did not specify that only men are allowed to participate. In the following year, rules were changed and separate championships for females and males were introduced. However, it was several years before the ladies' event first took place in 1906.\n"
   },
   {
-    "id": 19,
-    "name": "population-density1953"
+    "id":3,
+    "name":"population-density1905",
+    "descriptionHeader": "1905 - Russian Revolution",
+    "description":"The Russian Revolution of 1905 encompasses a series of revolutionary unrests in the Russian Empire that lasted from 1905 to 1907, triggered primarily by the Russo-Japanese War and the Petersburg Bloody Sunday of 1905. The measures taken by the government of Tsar Nicholas II Revolutionaries appeased were soon taken back, which is why the revolution is considered a failure. It depicts the history leading up to the February Revolution of 1917 and the subsequent October Revolution."
   },
   {
-    "id": 20,
-    "name": "population-density1955"
+    "id":4,
+    "name":"population-density1908",
+    "descriptionHeader": "1908 - Messina earthquake and tsunami ",
+    "description":"Messina earthquake and tsunami of 1908, earthquake and subsequent tsunami that devastated southern Italy on Dec. 28, 1908. The double catastrophe almost completely destroyed Messina, Reggio di Calabria, and dozens of nearby coastal towns.\nWhat was likely the most powerful recorded earthquake to hit Europe struck at about 5:20 AM local time. Its epicentre was under the Strait of Messina, which separates the island of Sicily from the province of Calabria, the “toe” of Italy’s geographical “boot.” The main shock lasted for more than 20 seconds, and its magnitude reached 7.5 on the Richter scale. The tsunami that followed brought waves estimated to be 40 feet (13 metres) high crashing down on the coasts of northern Sicily and southern Calabria. More than 80,000 people were killed in the disaster. Many of the survivors were relocated to other Italian cities; others immigrated to the United States.\n"
   },
   {
-    "id": 21,
-    "name": "population-density1957"
+    "id":5,
+    "name":"population-density1912",
+    "descriptionHeader": "1912 - Heroic Age of Antarctic Exploration",
+    "description":"The Heroic Age of Antarctic Exploration was an era in the exploration of Antarctica which began at the end of the 19th century, and ended after the First World War; the Shackleton–Rowett Expedition (1921–1922) is often cited by historians as the dividing line between the \"Heroic\" and \"Mechanical\" ages. During the Heroic Age, the Antarctic region became the focus of international efforts that resulted in intensive scientific and geographical exploration by 17 major Antarctic expeditions launched from ten countries. The common factor in these expeditions was the limited nature of the resources available to them before advances in transport and communication technologies revolutionized the work of exploration. Both the geographic and magnetic South Poles were reached for the first time during the Heroic Age.\n"
   },
   {
-    "id": 22,
-    "name": "population-density1961"
+    "id":6,
+    "name":"population-density1916",
+    "descriptionHeader": "1916 - The biggest battles of the First World War",
+    "description":"The year 1916 was the year of the biggest battles of the First World War, the \"material battles\". The Battle of Verdun and the Battle of the Somme have gone down in history as the most horrible, costly battles of the First World War.\nThe fortifications of Verdun were one of the pillars of the French front. Here the Germans wanted to inflict such heavy losses on the enemy that the German advance would then succeed. But the plan didn't work out, because not only the French bled to death, but also the Germans.\nAt the end of the Battle of Verdun in July 1916 a total of 700,000 men were dead or wounded. Another battle, the largest of the war, had just begun on the Somme River in northern France.\n"
   },
   {
-    "id": 23,
-    "name": "population-density1966"
+    "id":7,
+    "name":"population-density1919",
+    "descriptionHeader": "1919 - The Spanish flu",
+    "description":"The Spanish flu was an influenza pandemic caused by an unusually virulent strain of the influenza virus (subtype A/H1N1) that spread in three waves between 1918 - near the end of World War I - and 1920 and affected a world population of about 1, 8 billion claimed between 20 million and 50 million lives according to the WHO (World Health Organization), estimates range up to 100 million. This means that more people died from the Spanish flu than in the First World War (17 million). A total of around 500 million people are said to have been infected, which results in a mortality rate of 5 to 10 percent, which was significantly higher than in diseases caused by other influenza pathogens.\nA special feature of the Spanish flu was that it mainly succumbed to people between the ages of 20 and 40, while influenza viruses otherwise pose a particular risk to small children and the elderly. Waterfowl formed the original pathogen reservoir, possibly in recombination with gene segments from swine influenza viruses.\n"
   },
   {
-    "id": 24,
-    "name": "population-density1968"
+    "id":8,
+    "name":"population-density1921",
+    "descriptionHeader": "1921 - The Russian Famine",
+    "description":"The Russian Famine of 1921–1922, also known as the Povolshye Famine, was a severe famine in Soviet Russia that claimed five million lives. The regions on the Volga and Urals were mainly affected by the famine, which began in the spring of 1921 and lasted until the end of 1922.\nThe famine arose from the economic repercussions of World War I and the multi-year civil war combined with the policies of war communism, particularly the Prodrasvyorstka (food requisitioning) campaign. A poor rail network contributed to the aggravation of the food situation because food could not be distributed efficiently.\n One of the most periodic droughts in Russia's history aggravated the situation into a national catastrophe. The famine was so severe that it was questionable whether seeds were not eaten before they were actually sown. For a time, aid agencies had to provide railroad workers with seeds to get shipments going.\n"
   },
   {
-    "id": 25,
-    "name": "population-density1969"
+    "id":9,
+    "name":"population-density1925",
+    "descriptionHeader": "1925 - 'Mein Kampf' - A political and ideological manifesto",
+    "description":"“Mein Kampf” is a political and ideological manifesto written by Adolf Hitler. It appeared in two parts. In it, Hitler described his career as a politician and his worldview. The book contains Hitler's autobiography but is mainly a pamphlet and propaganda document intended to help rebuild the NSDAP as a centrally controlled party under Hitler's leadership.\nThe first volume was written after the failed putsch on November 9, 1923 against the Weimar Republic during Hitler's subsequent imprisonment in 1924 and was first published on July 18, 1925, the second on December 11, 1926. The first volume in particular became a much-discussed bestseller in the Weimar Republic until 1932.\n"
   },
   {
-    "id": 26,
-    "name": "population-density1971"
+    "id":10,
+    "name":"population-density1928",
+    "descriptionHeader": "1928 - Gustav Hartmann",
+    "description":"Gustav Hartmann started on April 2, 1928 with his cab and the Wallach Grasmus, accompanied by the newspaper reporter Hans Hermann Theobald, on a journey to Paris, where he arrived on June 4, 1928. This trip was supposed to be an action against the decline of the cab trade and the increasing number of cars. The distance travelled was over 1000 kilometres.\n(Gustav Andreas Theodor Hartmann (* June 4, 1859 in Magdeburg; † December 23, 1938 in Berlin) was a cab driver from Berlin-Wannsee and was known as Eiserner Gustav.)"
   },
   {
-    "id": 27,
-    "name": "population-density1973"
+    "id":11,
+    "name":"population-density1931",
+    "descriptionHeader": "1931 - Discovering fundamental limits to computability, theorem proving and logic",
+    "description":"In the early 1930s, Kurt Gödel discovered fundamental limits to computability, theorem proving, and logic in general. He became the founder of modern theoretical computer science and KI-theory .\nGödel designed a universal language for coding any formalizable process (1931-34). It is based on integers and allows both data (e.g. axioms and theorems) and programs (e.g. proof-generating sequences of operations on the data). In particular, his so-called Gödel numbers allow to formalize the behaviour of any digital computer in axiomatic form (this also inspired my much later self-referential Gödel machine).\n"
   },
   {
-    "id": 28,
-    "name": "population-density1974"
+    "id":12,
+    "name":"population-density1932",
+    "descriptionHeader": "1932 - Saudi Arabia was born",
+    "description":"When the King of the Hijaz, Abdul Aziz bin Abdul Rahman Al Saud (short: Ibn Saud), gave his kingdom the name Saudi Arabia on September 18, 1932. This kingdom was still a long way from the immense wealth for which it was known in the became known in later years.\nOn the contrary: the king was poor. Before the first oil companies introduced themselves to the king, most of the government's finances came from the income from the annual Hajj pilgrimages to the holy sites in Mecca and Medina."
   },
   {
-    "id": 29,
-    "name": "population-density1975csv"
+    "id":13,
+    "name":"population-density1934",
+    "descriptionHeader": "1934 - King Alexander | Karageorgievic",
+    "description":"King Alexander I Karageorgievic, Serbian regent since 1914 and regent of the Kingdom of Serbs, Croats and Slovenes since 1918, ascended the throne after the death of his father, King Peter I, on August 16, 1921. \n The relationship between Alexander I Karageorgievic and the Serbian secret organization \"Black Hand\", whose member Gavrilo Princip murdered the Austrian heir to the throne Franz Ferdinand, has not been clarified to this day. In any case, it is known that Alexander cultivated some enemy images from which he would not be dissuaded: the Hungarian revision, the Habsburg restoration and Italy's policy in the Danube region and the Balkans.\n"
   },
   {
-    "id": 30,
-    "name": "population-density1977"
+    "id":14,
+    "name":"population-density1937",
+    "descriptionHeader": "1937 - Zeppelin LZ 129 'Hindenburg'",
+    "description":"The Zeppelin LZ 129 \"Hindenburg\" (registration D-LZ129), named after the German Reich President Paul von Hindenburg, was one of the two largest aircraft ever built, along with its sister airship LZ 130. Its maiden voyage was in March 1936. On May 6, 1937 it was destroyed on landing in Lakehurst (New Jersey, USA) when the hydrogen filling ignited. 35 of the 97 people on board and one member of the ground crew were killed."
   },
   {
-    "id": 31,
-    "name": "population-density1979"
+    "id":15,
+    "name":"population-density1940",
+    "descriptionHeader": "1940 - Minor changes in fashion",
+    "description":"Even though the Second World War took place in the 1940s, there were still minor changes in fashion.\nUnfortunately, women's interest in fashion and the clothing industry had been paralyzed due to fabric rationing and austerity measures due to the war.\nThe various fashion influences of different decades mixed, for example because some details of the fashion from the 1930s were still in demand in the 40s. At the beginning of the 1940s there were only minor changes in fashion compared to the 1930s. For women, broad shoulders were still the order of the day, as they had been in the decade before. However, the knees were only slightly or hardly covered in the skirts. In contrast to this, however, the clothing on the neck was all the more high-necked. At the forefront of fashion was the practical purpose and recycling of clothing.\n"
   },
   {
-    "id": 32,
-    "name": "population-density1982"
+    "id":16,
+    "name":"population-density1945",
+    "descriptionHeader": "1945 - Beginning of the post-war period",
+    "description":"The year 1945 marks the end of the Second World War and thus the beginning of the post-war period.\nIn Europe, the Wehrmacht on the eastern front is pushed back by the Red Army in its winter offensive on the Oder, while the Ardennes offensive on the western front fails in a last push against the Allies and the German cities are destroyed in the bombing war.\n In February, Roosevelt, Churchill and Stalin discuss the post-war order at the Yalta Conference. On the western front, the Allies managed to cross the Rhine at the end of March as the last barrier before the occupation of Germany. At the end of April, the Red Army marched into Berlin. Adolf Hitler commits suicide in the Führerbunker on April 30, the unconditional surrender of the Wehrmacht comes into effect on May 8 at 11:01 p.m. CET."
   },
   {
-    "id": 33,
-    "name": "population-density1985"
+    "id":17,
+    "name":"population-density1948",
+    "descriptionHeader": "1948 - Currency reform of Germany",
+    "description":"The currency reform of 1948 came into effect on June 20, 1948 in the Trizone, the three western occupation zones of Germany. From June 21, 1948, the Deutsche Mark (“DM”, also “D-Mark”) was the sole legal tender there. The two previously valid means of payment, the Reichsmark and the Rentenmark (both abbreviated to “RM”) were exchanged and the nominal value was more or less reduced. The currency reform of 1948 is one of the most important economic policy measures in post-war Germany."
   },
   {
-    "id": 34,
-    "name": "population-density1987"
+    "id":18,
+    "name":"population-density1951",
+    "descriptionHeader": "1951 - The National Iranian Oil Company (NIOC)",
+    "description":"Hossein Ala (Persian حسین علاء\u200E; born December 13, 1881 in Tehran; † July 13, 1964 in Tehran) was an Iranian politician who held various offices and positions for over 60 years. He was a minister in various cabinets and was Prime Minister of Iran from March to April 1951 and from 1955 to 1957.\n On March 15, the Parliament passed the Oil Industry Nationalization Act. The Senate approved the law and it went into effect with Mohammad Reza Shah's signature and the Parliament voted in favour of Prime Minister Ala by 77 votes in favour from 84 MPs present. The National Iranian Oil Company (NIOC) was formed to take over the Anglo-Iranian Oil Company's production facilities and refineries in Iran and continue the operations of the oil industry that had passed into the hands of the Iranian state.\n"
   },
   {
-    "id": 35,
-    "name": "population-density1989"
+    "id":19,
+    "name":"population-density1953",
+    "descriptionHeader": "1953 - The Rosenberg & soviet stomic bomb crisis",
+    "description":"Julius Rosenberg was an American electrical engineer, his wife Ethel Rosenberg worked as a commercial clerk. Her criminal trial caused a worldwide sensation in the early 1950s. As civilians, they were accused of military espionage for the Soviet Union. Subsequent statements and declassified documents from the archives of the Soviet Union and the FBI indicate that the allegations of military espionage against Julius Rosenberg were justified, but that his activities could in no way contribute to the development of the Soviet atomic bomb.\n Her brother charged her with false testimony in order to distract from harsher penalties for himself because of their own espionage for the project. Despite fierce national and international protests, were both sentenced to death on June 19, 1953 in New York State Prison Sing Sing on the executed by electric chair.\n"
   },
   {
-    "id": 36,
-    "name": "population-density1992"
+    "id":20,
+    "name":"population-density1955",
+    "descriptionHeader": "1955 - The largest discrete computer system ever built!",
+    "description":"The AN/FSQ-7 Combat Direction Central, referred to as the Q7 for short, was a computerized command and control system for Cold War ground-controlled interception used in the USAF Semi-Automatic Ground Environment (SAGE) air defense network.\n An advancement of the pioneering MIT Whirlwind II digital computer design, and manufactured by IBM as prime contractor, the AN/FSQ-7 was the largest discrete computer system ever built. Each of the 24 installed machines: 9 weighed 250 tons. The AN/FSQ-7 used a total of 60,000 vacuum tubes and up to 3 megawatts of electricity, performing about 75,000 instructions per second for networking regional radars.\nThe IBM or also known as Q7 is the first generation released in 1955.\n"
   },
   {
-    "id": 37,
-    "name": "population-density1994"
+    "id":21,
+    "name":"population-density1957",
+    "descriptionHeader": "1957 - Ladybird of Szeged",
+    "description":"The Ladybird of Szeged or Ladybug of Szeged is an early robot which was developed in Hungary at the Cybernetics Laboratory of the University of Szeged (SZTE) between 1956 and 1957. The Ladybird is one of the first Hungarian robots, and the first robotic animal ever constructed. It was designed and built by Dr. Dániel Muszka, with the main intention of emulating Pavlovian conditional reflexes in a machine. \nThe original Ladybird is still in working condition, and can be found in the Informatics History Exhibition (ITK) in Szeged. The Ladybird is considered an early milestone in Hungarian cybernetics and information technology.\n"
   },
   {
-    "id": 38,
-    "name": "population-density1996"
+    "id":22,
+    "name":"population-density1961",
+    "descriptionHeader": "1961 - The Berlin Wall",
+    "description":"The Berlin Wall was a border fortification system of the German Democratic Republic (GDR) during the division of Germany that existed for more than 28 years, from August 13, 1961 to November 9, 1989. It not only separated the connections in the Greater Berlin area between the eastern part (\"capital of the GDR\") and the western part of the city, but also completely surrounded all three sectors of the western part. \nThe Berlin Wall, as the last action in the division of the four-sector city of Berlin created by the post-war order of the Allies, was a component and at the same time a striking symbol of the conflict in the Cold War.\n"
   },
   {
-    "id": 39,
-    "name": "population-density1998"
+    "id":23,
+    "name":"population-density1966",
+    "descriptionHeader": "1966 - The economic downturn",
+    "description":"In the first half of the 1960s, in order to effectively counter the labour shortage in the years of economic upswing, industry increasingly recruited \"guest workers\" and women. But the downward trend in growth rates is already signalling the end of the \"fat\" years. Due to a decreasing willingness to invest, a clear economic downturn becomes noticeable in 1966, which results in wage cuts and layoffs. In 1967 there was \"negative economic growth\" for the first time. The gross national product falls by 0.2 percent, while the unemployment rate rises from 0.7 to 2.2 percent.\nTrusting in the self-regulation of the market, Chancellor Erhard rejects government intervention in the economic process. Only the grand coalition will be able to overcome the recession. State investment programs act as immediate measures for a rapid economic revival. The Stability Act of May 10, 1967 introduced a comprehensive range of instruments for global control in order to be able to combat economic fluctuations more effectively. In addition, under the name \"Concerted Action\", representatives of the state and the collective bargaining parties meet to coordinate their economic policy interests. \n"
   },
   {
-    "id": 40,
-    "name": "population-density2000"
+    "id":24,
+    "name":"population-density1968",
+    "descriptionHeader": "1968 - The Summer Olympics in Mexio City",
+    "description":"The 1968 Summer Olympics (officially called the Games of the XIX Olympiad) took place from October 12 to 27, 1968 in Mexico City. At the 61st IOC session in Baden-Baden, the capital of Mexico prevailed against competitors Detroit, Lyon and Buenos Aires. 5516 athletes (4735 men and 781 women) from 112 nations took part in the games. The most successful nation was the USA ahead of the Soviet Union and Japan. The most successful athletes were gymnast Věra Čáslavská (Czechoslovakia) with four gold and two silver medals and Japanese gymnast Akinori Nakayama with four gold and one silver medal."
   },
   {
-    "id": 41,
-    "name": "population-density2002"
+    "id":25,
+    "name":"population-density1969",
+    "descriptionHeader": "1969 - Apollo 11",
+    "description":"NASA's Apollo program. The mission was successful and met the national goal set by US President John F. Kennedy in 1961 to get a human to the moon and back safely to Earth before the end of the decade.\nAstronauts Neil Armstrong, Edwin \"Buzz\" Aldrin and Michael Collins were launched on July 16, 1969 in a Saturn V rocket from Kennedy Space Center's Launch Complex 39A in Florida and reached lunar orbit on July 19. The next day, while Collins remained in the command module of the spaceship Columbia, Armstrong and Aldrin touched down on the moon in the Eagle Lunar Module. A few hours later, Armstrong became the first human to set foot on the moon, followed shortly thereafter by Aldrin. After a stay of almost 22 hours, the lander started again from the lunar surface and returned to the command ship (lunar orbit rendezvous). After returning to Earth on July 24, the Columbia splashed about 25 km from the salvage ship USS Hornet in the Pacific. Apollo 11 was also the first time rock samples were brought back to earth from another celestial body.\nAround 600 million people worldwide watched the television broadcast of the moon landing in 1969.\n"
   },
   {
-    "id": 42,
-    "name": "population-density2004"
+    "id":26,
+    "name":"population-density1971",
+    "descriptionHeader": "1971 - The oldest library in the world",
+    "description":"Project Gutenberg is the oldest digital library in the world. It was founded by the American Michael S. Hart and started operations in 1971. It was named after the inventor of modern book printing, Johannes Gutenberg. The first document was published on December 1, 1971.\nThe corpus consists predominantly of English-language works, but books in other languages are also increasingly being included. In addition to literary works, the decoded human genome of the Human Genome Project has been available since November 2002. In addition to written works, there are also audio books.\nAll Project Gutenberg files are consistently free to download and redistribute; the only restriction on further use is that the opening credits of Project Gutenberg must always remain unchanged. If the redistributed text has been modified, it must no longer be identified as Gutenberg text. The project is based on US law and expressly points out that the copyright of the respective country in which the user lives may provide otherwise. \nThe project has already published more than 54,000 works, including more than 700 German-language books.\nThe books are available in various data formats: As ASCII text files (the newer editions in UTF-8 format), as EPUB and Mobi for the Amazon Kindle (both with and without images) and as HTML files. The latter can be read directly online in the web browser. All data can be downloaded individually as well as in larger packages - in suitable sizes for CDs or DVDs. Files are offered as HTTP, FTP, and peer-to-peer (via magnet links) downloads.\n"
   },
   {
-    "id": 43,
-    "name": "population-density2006"
+    "id":27,
+    "name":"population-density1973",
+    "descriptionHeader": "1973 - Worldwide oil crisis",
+    "description":"The 1973 oil crisis or first oil crisis began in October 1973 when the members of the Organization of Arab Petroleum Exporting Countries led by Saudi Arabia proclaimed an oil embargo. The embargo was targeted at nations that had supported Israel during the Yom Kippur War. The initial nations targeted were Canada, Japan, the Netherlands, the United Kingdom and the United States with the embargo also later extended to Portugal, Rhodesia and South Africa. By the end of the embargo in March 1974, the price of oil had risen nearly 300%, from US$3 per barrel ($19/m3) to nearly $12 per barrel ($75/m3) globally; US prices were significantly higher. The embargo caused an oil crisis, or \"shock\", with many short- and long-term effects on global politics and the global economy. It was later called the \"first oil shock\", followed by the 1979 oil crisis, termed the \"second oil shock\"."
   },
   {
-    "id": 44,
-    "name": "population-density2008"
+    "id":28,
+    "name":"population-density1974",
+    "descriptionHeader": "1974 - The mausoleum of Qín Shǐhuángdì",
+    "description":"The mausoleum of Qín Shǐhuángdì is an early Chinese tomb complex built for the first Chinese emperor Qín Shǐhuángdì. Construction began in 246 BC. and the emperor was inaugurated in 210 B.C. buried in it. It is one of the world's largest tombs and is best known for its large soldier figures, the so-called Terracotta Army.\nThe exact location of the imperial tomb had been known for a long time, and later also in the western world. For example, the French archaeologist Victor Segalen traveled to China from 1909 to 1914 and also visited the burial mound. However, the discovery of the \"Terracotta Army\" in 1974 happened purely by accident when peasants from Xiyang Village were trying to dig a well. On March 29, they encountered a hard, scorched layer of earth. Pieces of clay were unearthed at a depth of four meters, including a brick-lined floor, a bronze crossbow mechanism, and bronze arrowheads. Neither the Han grand historian Sima Qian nor any other historical source mentioned the terracotta figurines. News of the find spread to Lintong County town. The official in charge of protecting ancient cultural objects traveled to the site with experts, and after various examinations of the partially broken figures, it was determined that they were valuable finds from the Qin period. The figures were taken to the Lintong County Culture House and restored there, and information about the find was kept secret. However, a journalist from the Xinhua News Agency found out about the find and wrote a report about it, so that it became known to the people of China. A few months later, a group of archaeologists went to the area of the tomb and began a more detailed investigation. In the course of this, the underground \"Terracotta Army\" was discovered in the tomb. The find was officially announced on July 11, 1975. Farmers were forbidden to continue digging in the area.\n"
   },
   {
-    "id": 45,
-    "name": "population-density2010"
+    "id":29,
+    "name":"population-density1975csv",
+    "descriptionHeader": "1975 - Evucation of the South Vietnamese capital Saigon",
+    "description":"Operation Frequent Wind was the American evacuation of the South Vietnamese capital Saigon on April 29-30, 1975 during the final stages of the Vietnam War.\nIn the weeks leading up to the evacuation, when the North's offensive marked the end of the war, the Pentagon had deployed 50 US Navy ships, including four aircraft carriers, 150 naval aircraft and 6,000 US Marines to the region, supported by 120 United States Air Force aircraft, mostly tankers and fighters, stationed at bases in Thailand. US President Gerald Ford's National Security Advisor Henry Kissinger and US Ambassador to Saigon Graham Martin opposed an early evacuation of US personnel, fearing a panic would break out among Vietnamese civilians.\nNonetheless, as of April 21, about 40,000 Americans and Vietnamese, mostly military and government officials, had already been flown out by plane from Tan Son Nhut Air Base near Saigon, along with about 2,000 orphans. Due to the advance of the North Vietnamese People's Army, the air base came under artillery and rocket fire on the morning of April 28. The base was closed, further flights were impossible. In addition, South Vietnamese civilians stormed the base to flee the country from the advancing communists. President Ford, who was in a meeting with his energy and economic advisers, was notified and called a meeting of the national security committee. After discussing the situation, he ordered the evacuation by helicopter at 22:45.\n"
   },
   {
-    "id": 46,
-    "name": "population-density2013"
+    "id":30,
+    "name":"population-density1977",
+    "descriptionHeader": "1977 - 'Star Wars' was born",
+    "description":"Star Wars (retroactively titled Star Wars: Episode IV – A New Hope) is a 1977 American epic space opera film written and directed by George Lucas, produced by Lucasfilm and distributed by 20th Century Fox. It stars Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing, Alec Guinness, David Prowse, James Earl Jones, Anthony Daniels, Kenny Baker and Peter Mayhew. It is the first film in the Star Wars film series and fourth chronological chapter of the \"Skywalker Saga\"."
   },
   {
-    "id": 47,
-    "name": "population-density2014"
+    "id":31,
+    "name":"population-density1979",
+    "descriptionHeader": "1979 - The revolution in Iran",
+    "description":"1979 was the year marked by the revolution in Iran. The international media reported extensively on the Shah's escape and the return of the Shiite religious leader Khomeini. The \"Islamic Revolution\" developed from the expulsion of the modernizing despot Mohammad Reza Pahlavi - the new rulers went on a confrontation with the USA, the power that supported the \"Ancien Régime\" the most. After the revolution broke out, the Shah fled the country and went to the United States, where he received medical treatment. After some hesitation, President Carter allowed the deposed ruler, with whom he had a close personal relationship, to enter the country. The conflict culminated in the hostage crisis in November."
   },
   {
-    "id": 48,
-    "name": "population-density2015"
+    "id":32,
+    "name":"population-density1982",
+    "descriptionHeader": "1982 - Commodorre 64",
+    "description":"The Commodore 64 (C64 for short, colloquially 64er or bread box) is an 8-bit home computer with 64 KB of RAM.\nSince its introduction in January 1982 at the Winter Consumer Electronics Show, the Commodore-built C64 was extremely popular both as a gaming computer and for software development in the mid to late 1980s. It is considered the best-selling home computer worldwide - estimates of the sales figures range between 12.5 and 30 million copies. The C64 offered a lot of technology and good expandability at an affordable price (after the introductory phase).\nAs was usual with home computers at the time, the compact central processing unit did not have any internal mass storage devices installed, but the keyboard was. Programs were loaded from external drives such as the Datasette cassette drive or the 5¼″ VC1541 floppy disk drive or were available immediately after switching on when using a plug-in module (cartridge). In addition to the operating system (Kernal) and two screen character sets, even in the basic state there was a complete programming language in the form of a BASIC interpreter, whose commands could also be entered in direct mode and executed immediately, and a screen editor that was advanced for the time instead of a mere line editor immediately after switching on available; this software was stored in the three ROM chips on the motherboard with storage capacities of twice eight and once four KB.\n"
   },
   {
-    "id": 49,
-    "name": "population-density2017"
+    "id":33,
+    "name":"population-density1985",
+    "descriptionHeader": "1985 - Japan Air Lines Flight 123",
+    "description":"Japan Air Lines Flight 123 (also known as JAL123) was a scheduled domestic Japan Air Lines passenger flight from Tokyo's Haneda Airport to Osaka International Airport, Japan. On August 12, 1985, a Boeing 747SR operating this route suffered a sudden decompression 12 minutes into the flight, and crashed in the area of Mount Takamagahara, Ueno, Gunma Prefecture, 100 km (62 mi; 54 nmi) from Tokyo 32 minutes later. The crash site was on Osutaka Ridge, near Mount Osutaka.\nJapan's Aircraft Accident Investigation Commission (AAIC) concluded,: 129  agreeing with investigators from the U.S. National Transportation Safety Board, that the rapid decompression was caused by a faulty repair by Boeing technicians after a tailstrike incident during a landing at Osaka Airport in 1978 as JAL Flight 115. The rear bulkhead of the plane had been repaired with an improperly installed doubler plate, compromising the plane's airworthiness. Cabin pressurization continued to expand and contract the improperly repaired bulkhead until the day of the accident, when the faulty repair failed, causing a rapid decompression that ripped off a large portion of the tail and caused the loss of hydraulic controls to the entire plane.\nThe aircraft, which was configured with increased economy-class seating, was carrying 524 people. Casualties of the crash included all 15 crew members and 505 of the 509 passengers. Some of the passengers survived the initial crash but died of their injuries hours later while awaiting rescue. Surpassing the fatalities of All Nippon Airways Flight 58 which crashed 14 years earlier with 162 fatalities, it is the deadliest single-aircraft accident both in Japan and global aviation history.\n"
   },
   {
-    "id": 50,
-    "name": "population-density2019"
+    "id":34,
+    "name":"population-density1987",
+    "descriptionHeader": "1987 - Black Monday",
+    "description":"Black Monday, October 19, 1987, was the first stock market crash after World War II. It started on the Hong Kong Stock Exchange and after the opening of the stock exchanges in Western Europe a few hours later there too, again a few hours later on the stock exchanges in the USA and Canada and then also in Australia and New Zealand.\nThe Dow Jones fell 22.6% (508 points) in one day; this is the largest one-day percentage drop in its history to date. By the end of October, share prices in Australia had fallen 41.8%, Canada 22.5%, Hong Kong 45.8% and the UK 26.4%.\nThe expression is based on the term Black Thursday for the New York crash of October 24, 1929, which ushered in the Great Depression.\nAugust 8, 2011 is also called \"Black Monday\". On that day, the rating agency Standard & Poor's withdrew the top credit rating AAA from the United States. \n"
   },
   {
-    "id": 51,
-    "name": "population-density2021"
+    "id":35,
+    "name":"population-density1989",
+    "descriptionHeader": "1989 - The fall of the Berlin Wall",
+    "description":"The fall of the Berlin Wall (German: Mauerfall) on 9 November 1989 was a pivotal event in world history which marked the falling of the Iron Curtain and one of the series of events that started the fall of communism in Eastern and Central Europe, preceded by the Solidarity Movement in Poland. The fall of the inner German border took place shortly afterwards. An end to the Cold War was declared at the Malta Summit three weeks later and the German reunification took place in October the following year."
   },
   {
-    "id": 52,
-    "name": "population-density2023"
+    "id":36,
+    "name":"population-density1992",
+    "descriptionHeader": "1992 - Hurricane Iniki",
+    "description":"Hurricane Iniki (Hawaiian: ʻiniki meaning \"strong and piercing wind\") was the most powerful hurricane to strike the U.S. state of Hawaii in recorded history. Forming on September 5, 1992, during the strong 1990–1995 El Niño, Iniki was one of eleven Central Pacific tropical cyclones during that season. It attained tropical storm status on September 8 and further intensified into a hurricane the next day. After turning north, Iniki struck the island of Kauaʻi on September 11 at peak intensity; it had winds of 145 mph and reached Category 4 status on the Saffir–Simpson hurricane scale. It had recorded wind gusts of 225 mph (360 km/h) as evidenced by an anemometer that was found blown into the forest during clean up. It was the first hurricane to hit the state since Hurricane Iwa in the 1982 season, and the first major hurricane since Hurricane Dot in 1959. Iniki dissipated on September 13 about halfway between Hawaii and Alaska.\nIniki caused around $3.1 billion (1992 USD) in damage and six deaths, making it the costliest natural disaster on record in the state. At the time, Iniki was the third-costliest United States hurricane. \n \n"
   },
   {
-    "id": 53,
-    "name": "population-density2025"
+    "id":37,
+    "name":"population-density1993",
+    "descriptionHeader": "1993 - Invention of the Apple Newton",
+    "description":"The Apple Newton was a product range of PDAs from Apple and other companies that were introduced in 1993 and whose production was discontinued in 1998 during the restructuring of Apple Computer under Steve Jobs. Actually, Newton is the designation of the operating system; the PDAs were largely marketed under the MessagePad name.\nThe Newton used the Newton OS as its operating system, the first operating system written entirely in C++, optimized for low memory and processor consumption. NewtonScript, based on the Self programming language, was used to program the Newton.\n"
   },
   {
-    "id": 54,
-    "name": "population-density2034"
+    "id":37,
+    "name":"population-density1994",
+    "descriptionHeader": "1994 - FIFA World Cup in the USA",
+    "description":"The final round of the 1994 FIFA World Cup was the 15th edition of this most important tournament for national football teams and took place from June 17 to July 17, 1994 for the first time in the USA.\nBrazil became world champions in the final against Italy, with a penalty shoot-out bringing the decision for the first time. Defending champion Germany failed in the quarter-finals and thus missed the final for the first time since 1978. Vice world champions Argentina were eliminated in the round of 16, whose captain Diego Maradona tested positive for drugs before the last group game and was excluded from the tournament. With the USA, the hosts were eliminated in the round of 16 for the first time. Top scorers were Oleg Salenko and Hristo Stoichkov with 6 goals each, with Salenko scoring a record 5 goals in the group game Russia vs Cameroon, but Russia were eliminated after the group stage. In the same game, Roger Milla scored Cameroon's only goal at the age of 42, making him the oldest goalscorer in World Cup history.\n"
   },
   {
-    "id": 55,
-    "name": "population-density2054"
+    "id":38,
+    "name":"population-density1996",
+    "descriptionHeader": "1996 - Mururoa - The nuclear weapons test site",
+    "description":"Mururoa (actually Moruroa; in the local language roughly: \"big secret\") is an approximately 300 square kilometer large, uninhabited atoll in the South Pacific, which has been known since 1966 as France's nuclear weapons test site.\nFrom 1966 to 1996, a total of 188 atomic bombs were detonated on Mururoa, 41 in the Earth's atmosphere and 147 underground. The first above-ground nuclear weapons test took place on July 2, 1966, codenamed Aldébaran.\nOn September 7, 1995, another series of tests started by France, despite international protests, led to serious unrest in Tahiti. After global protests, the explosions are now simulated on the computer. In 2000, the French withdrew from the atoll. Mururoa is still a restricted area to this day. Large amounts of radioactive waste are stored there in around 140 boreholes.\n"
   },
   {
-    "id": 56,
-    "name": "population-density2074"
+    "id":39,
+    "name":"population-density1998",
+    "descriptionHeader": "1998 - Kyoto Protocol",
+    "description":"The Kyoto Protocol to the United Nations Framework Convention on Climate Change, or Kyoto Protocol for short (named after the location of the Kyoto Conference in Japan), is an additional protocol adopted on December 11, 1997 to structure the United Nations Framework Convention on Climate Change (UNFCCC ) with the goal of climate protection. The agreement, which came into force on February 16, 2005, set for the first time legally binding target values for greenhouse gas emissions - the main cause of global warming - in industrialized countries. By the beginning of December 2011, 191 states and the European Union had ratified the Kyoto Protocol. The US refused to ratify the protocol in 2001; Canada announced its withdrawal from the agreement on December 13, 2011.\nParticipating industrialized countries committed to reducing their annual greenhouse gas emissions within the so-called first commitment period (2008-2012) by an average of 5.2 percent compared to 1990 levels. These emission reductions have been achieved. There were no fixed reduction amounts for emerging and developing countries.\n"
   },
   {
-    "id": 57,
-    "name": "population-density2095"
+    "id":40,
+    "name":"population-density2000",
+    "descriptionHeader": "2000 - The dot-cum bubble",
+    "description":"The dot-com bubble, also known as the dot-com boom, the tech bubble, and the Internet bubble, was a stock market bubble caused by excessive speculation of Internet-related companies in the late 1990s, a period of massive growth in the use and adoption of the Internet. \nBetween 1995 and its peak in March 2000, the Nasdaq Composite stock market index rose 400%, only to fall 78% from its peak by October 2002, giving up all its gains during the bubble. During the dot-com crash, many online shopping companies, such as Pets.com, Webvan, and Boo.com, as well as several communication companies, such as Worldcom, NorthPoint Communications, and Global Crossing, failed and shut down. Some companies that survived, such as Amazon.com, lost large portions of their market capitalization, with Cisco Systems alone losing 80% of its stock value.\n"
   },
   {
-    "id": 58,
-    "name": "population-density2100"
+    "id":41,
+    "name":"population-density2002",
+    "descriptionHeader": "2002 - Hamid Karzai",
+    "description":"Hamid Karzai (born December 24, 1957 in Karz near Kandahar; alternative spelling Hamid Karzai, in Pashto and Dari (Persian) حامد کرزی, DMG Ḥāmid Karzay) is an Afghan politician. He was President of the Islamic Republic of Afghanistan from 2001 to 2014.\nAfter the September 11, 2001 terrorist attacks, Karzai worked with the US and the Northern Alliance to overthrow the Taliban regime and establish a new government. By the time US troops arrived in Kandahar on November 25, 2001, Karzai had signed an agreement with the Taliban that guaranteed them a general amnesty and Mullah Omar a free withdrawal from the city. However, the USA declared that it did not want to abide by this agreement. As early as December 4, 2001, he was appointed President of an interim administration at the Afghanistan Conference on Petersberg near Bonn. He was sworn in on December 22, 2001. The Great Council (Loya Jirga) on June 13, 2002 then appointed Karzai President of the Transitional Islamic State of Afghanistan.\nOn September 5, 2002, Karzai was assassinated in Kandahar. A gunman in Afghan Army uniform opened fire, wounding the governor of Kandahar and a US soldier. The gunman and one of Karzai's bodyguards were killed.\n"
+  },
+  {
+    "id":42,
+    "name":"population-density2004",
+    "descriptionHeader": "2004 - Hurricane season in Florida",
+    "description":"Florida, officially known as the “Sunshine State,” was dubbed the “Plywood State” by media after it was battered by four hurricanes in only six weeks during the 2004 hurricane season. Nearly every square inch of Florida felt the impacts from at least one of those four storms.\nHurricane Charley\nCharley was first. A hurricane warning extended across the entire west coast of the peninsula on the morning of August 13.  But many people only paid attention to the center forecast line inside the track forecast error cone. That morning, the line was over the Tampa Bay region. But early that afternoon, Charley strengthened to a category 4 hurricane and veered a bit to the right, coming ashore at Punta Gorda, about 100 miles south of Tampa. \nHurricane Frances\nSeveral weeks later on September 5, Hurricane Frances made landfall as a category 2 at Hutchinson Island on the Florida east coast. The center of the storm was very large, 55 to 80 miles wide at landfall, but as the calm center passed overhead it belied what was to come as Frances moved inland. As the storm cut across the peninsula and moved on to the panhandle it created numerous tornadoes statewide.\nHurricane Ivan\nOn the same day that Frances hit, Hurricane Ivan developed over the tropical Atlantic Ocean. On September 16, Ivan center came ashore as a category 3 just west of Gulf Shores, Alabama. Portions of the Interstate 10 bridge system across Pensacola Bay were severely damaged due to the severe wave action on top of the 10-15 foot storm surge. Storm surge occurred all the way to Tampa Bay, about 500 miles from Ivan’s point of landfall. \nHurricane Jeanne\nFlorida’s east coast was still cleaning up from Frances when it was hit again on September 26, this time by Hurricane Jeanne as a category 3 storm. Its 55-mile-wide eye crossed the Florida coast at virtually the same spot where Frances did. Widespread flooding rainfall of more than seven inches accompanied Hurricane Jeanne as it slowly moved west and north over the state.\n"
+  },
+  {
+    "id":43,
+    "name":"population-density2006",
+    "descriptionHeader": "2006 - FIFA World Cup in Germany",
+    "description":"The final round of the 2006 World Cup (FIFA World Cup) was the 18th edition of the most important tournament for national football teams and took place from June 9 to July 9, 2006 and after 1974 for the second time in Germany.\nItaly won the final by beating France on penalties to become World Cup champions for the fourth time after 1934, 1938 and 1982. Third place went to Germany, which also had the top scorer in Miroslav Klose, who scored five goals during the tournament.\nIn terms of football, the tournament was primarily characterized by tactics and athletics. Relatively few goals were scored, especially from the round of 16 onwards. The four-week summer weather and the enthusiasm of spectators and hosts nevertheless ensured a relaxed atmosphere in the stands, at the public viewing and around the World Cup, which was being held in Germany based on Heine's poem Deutschland. A winter fairy tale is retrospectively referred to as a \"German summer fairy tale\". The World Cup was held under the motto The world as a guest of friends.\n"
+  },
+  {
+    "id":44,
+    "name":"population-density2008",
+    "descriptionHeader": "2008 - The financial crisis",
+    "description":"The financial crisis of 2008, or Global Financial Crisis, was a severe worldwide economic crisis that occurred in the early 21st century. It was the most serious financial crisis since the Great Depression (1929). Predatory lending targeting low-income homebuyers, excessive risk-taking by global financial institutions, and the bursting of the United States housing bubble culminated in a \"perfect storm.\" Mortgage-backed securities (MBS) tied to American real estate, as well as a vast web of derivatives linked to those MBS, collapsed in value. Financial institutions worldwide suffered severe damage, reaching a climax with the bankruptcy of Lehman Brothers on September 15, 2008, and a subsequent international banking crisis."
+  },
+  {
+    "id":45,
+    "name":"population-density2010",
+    "descriptionHeader": "2010 - The European debt crisis",
+    "description":"The European debt crisis, often also referred to as the eurozone crisis or the European sovereign debt crisis, is a multi-year debt crisis that has been taking place in the European Union (EU) since the end of 2009. Several eurozone member states (Greece, Portugal, Ireland, Spain, and Cyprus) were unable to repay or refinance their government debt or to bail out over-indebted banks under their national supervision without the assistance of third parties like other eurozone countries, the European Central Bank (ECB), or the International Monetary Fund (IMF).\nThe eurozone crisis was caused by a balance-of-payments crisis, which is a sudden stop of foreign capital into countries that had substantial deficits and were dependent on foreign lending. The crisis was worsened by the inability of states to resort to devaluation (reductions in the value of the national currency). Debt accumulation in some eurozone members was in part due to macroeconomic differences among eurozone member states prior to the adoption of the euro. The European Central Bank adopted an interest rate that incentivized investors in Northern eurozone members to lend to the South, whereas the South was incentivized to borrow because interest rates were very low. Over time, this led to the accumulation of deficits in the South, primarily by private economic actors. A lack of fiscal policy coordination among eurozone member states contributed to imbalanced capital flows in the eurozone, while a lack of financial regulatory centralization or harmonization among eurozone states, coupled with a lack of credible commitments to provide bailouts to banks, incentivized risky financial transactions by banks. The detailed causes of the crisis varied from country to country. In several countries, private debts arising from a property bubble were transferred to sovereign debt as a result of banking system bailouts and government responses to slowing economies post-bubble. European banks own a significant amount of sovereign debt, such that concerns regarding the solvency of banking systems or sovereigns are negatively reinforcing.\n"
+  },
+  {
+    "id":46,
+    "name":"population-density2013",
+    "descriptionHeader": "2013 - The Global Surveillance and Espionage Affair ",
+    "description":"The Global Surveillance and Espionage Affair grew out of disclosures of Top Secret classified National Security Agency (NSA) documents and subsequent releases and the international response to them. The US whistleblower and former secret service agent Edward Snowden revealed at the beginning of June 2013 how the United States and the United Kingdom have been monitoring telecommunications and the Internet in particular on a large scale globally and independently of suspicion since 2007 at the latest. Politicians and heads of intelligence services in both countries justify that the measures are intended to prevent terrorist attacks.\n\nThe data obtained in this way is retained. Buildings and representations of the European Union and the United Nations are said to have been spied on with the help of bugs. In addition, numerous leading politicians, including those from allied states, were bugged. Some of their e-mail accounts were breached. In the course of the affair, the media also reported on similar espionage activities by other countries. The events led to diplomatic tensions, some of which were considerable. Brazilian President Dilma Rousseff canceled a visit to the USA, and the Federal Republic of Germany summoned the US Ambassador for the first time in its history. In several affected countries, civil rights organizations have protested against the mass surveillance of the population and warned of the dangers of a surveillance state, and an ongoing media debate has developed. The NSA investigative committee was set up by the German Bundestag on behalf of all parliamentary groups to \"[...] clarify the extent and background of the spying by foreign secret services in Germany\".\n"
+  },
+  {
+    "id":47,
+    "name":"population-density2014",
+    "descriptionHeader": "2014 - FIFA World Cup in Brazil",
+    "description":"The final round of the 2014 FIFA World Cup for men (English FIFA World Cup, Portuguese Copa do Mundo FIFA) was the 20th edition of the most important tournament for national football teams and took place from June 12 to July 13, 2014 for the second time - after 1950 – held in Brazil.\nWorld champion for the fourth time was Germany, which defeated Argentina in the final. With the victory of the German national team, the World Cup title went to a European team for the third time in a row; for the first time a European team won on the American double continent. Hosts Brazil lost heavily to the German team in the semifinals and finished fourth after the 3rd place match against the Netherlands. Defending champions Spain were eliminated after the group stage. Switzerland was eliminated in the round of 16; Austria already failed in the qualification.\nWith 171 goals, the goal record for finals with 32 teams from 1998 was equaled at this World Cup. Germany scored the most goals (18).\n"
+  },
+  {
+    "id":48,
+    "name":"population-density2015",
+    "descriptionHeader": "2015 - The diesel or emissions scandal",
+    "description":"The diesel or emissions scandal (also known as Dieselgate) is the combination of a series of mostly illegal manipulations by various car manufacturers to circumvent legally prescribed limit values for car emissions and – in return – political influence to secure them. Defeat devices were banned in this form by an EU regulation on January 15, 2013.\nOn September 18, 2015, it was publicly disclosed that Volkswagen AG was using an illegal defeat device in the engine controls of its diesel vehicles; the US emission standards were only achieved in a special test bench mode, in contrast, during normal operation, a large part of the emission control system is largely switched off. The disclosure was prompted by a Notice of Violation from the US Environmental Protection Agency (EPA). According to Volkswagen AG, the software in question was used in around eleven million vehicles worldwide with the VW EA189 engine series. In the EU and the USA, the successor series VW EA288 is also affected. However, according to the Reuters news agency, the software has been adapted for four different engine types.\nIn order to promote sales and increase the market share of diesel cars in the USA, VW had previously advertised this generation of vehicles in large advertising campaigns as particularly clean \"clean diesel\".\n"
+  },
+  {
+    "id":49,
+    "name":"population-density2017",
+    "descriptionHeader": "2017 - Donald John Trump",
+    "description":"Donald John Trump (born June 14, 1946 in Queens, New York City, New York) is an American entrepreneur, entertainer and politician (Republican Party). He was the 45th President of the United States from 2017 to 2021.\nTrump is the owner of the conglomerate The Trump Organization and served as CEO from 1971 to 2017. Despite his privileged origins and several corporate bankruptcies in the real estate industry, he managed from 1990 to make his name a brand and a synonym for the American Dream come true. As the host of the talent show The Apprentice, which aired from 2004 to 2015, he became one of the most well-known personalities in the United States.\nTrump supported various political parties but has been registered as a Republican (with a brief hiatus) since 2009. As their candidate, he won the 2016 presidential election against Democrat Hillary Clinton. Its eclectic program contained elements of populism, conservatism, protectionism, economic liberalism and isolationism. With a simple language style, provocative statements and radical suggestions, he attracted the attention of the media in a special way and acted as his own media mouthpiece through intensive use of the short message service Twitter.\n"
+  },
+  {
+    "id":50,
+    "name":"population-density2019",
+    "descriptionHeader": "2019 - The Notre-Dame Fire",
+    "description":"The Notre-Dame Fire was a major fire that partially destroyed the historic structure of Notre-Dame de Paris Cathedral on April 15-16, 2019. After about four hours, the Paris fire brigade managed to confine the fire to the wooden roof structure. The west facade with the main towers, the walls of the central nave together with the buttresses and large parts of the vaulted ceiling and the side aisles and ambulatory remained largely stable. Most of the rich interior of the church was preserved, but was partially soiled and damaged by heat, smoke, soot and extinguishing water.\nThe cathedral has been a World Heritage Site since 1991 (according to the UNESCO list) as part of the monument on the banks of the Seine.\n"
+  },
+  {
+    "id":51,
+    "name":"population-density2021",
+    "descriptionHeader": "2021 - The Corona Pandemic",
+    "description":"The COVID-19 pandemic, also known as the corona(virus) pandemic or corona(virus) crisis, is the worldwide outbreak of the infectious disease COVID-19 (often colloquially abbreviated as “corona” or “COVID”). The pandemic is having dramatic effects in many countries.\nOn December 31, 2019, an outbreak of new pneumonia of unknown cause was confirmed in Wuhan, China. On February 11, 2020, the World Health Organization (WHO) proposed the name COVID-19 for the infectious disease. In January 2020, the disease became an epidemic in China and on March 11, 2020, the WHO officially declared the previous epidemic a global pandemic. The disease is caused by an infection with the previously unknown coronavirus SARS-CoV-2. In many countries around the world, there are massive cuts in everyday life during the course of the pandemic. The overall social impact of the COVID-19 pandemic also includes the economic crisis of 2020-2021.\nVaccination campaigns are underway in many states to end the COVID-19 pandemic. Among others, vaccines from Biontech/Pfizer (pictured), Moderna, AstraZeneca/Oxford and Johnson & Johnson are used.\n"
+  },
+  {
+    "id":52,
+    "name":"population-density2023",
+    "descriptionHeader": "2023 - World population growth - Rise or fall?",
+    "description":"Population of the world in 1908 was 999669696966"
+  },
+  {
+    "id":53,
+    "name":"population-density2025",
+    "descriptionHeader": "2025 - Solar Eclipse",
+    "description":"The solar eclipse of March 29, 2025 is a partial eclipse, so the earth is only hit by the penumbra of the moon. The eclipse will begin near the US, then the penumbra will move northeast, with an eclipsed sun visible throughout northwest half of Europe. Northwest Africa is just about reached by the penumbra of the moon, in the north the day-night boundary of the ending polar night limits the visibility area. The penumbra will move into northwestern Asia as the eclipse progresses. Maximum coverage will be reached in northern Labrador where 93% of the sun will be covered by the moon."
+  },
+  {
+    "id":54,
+    "name":"population-density2034",
+    "descriptionHeader": "2034 - FIFA World Cup",
+    "description":"The final round of the 25th Men's Football World Cup (officially 2034 FIFA World Cup, official German spelling \"FIFA Football World Cup 2034\") is to be held in 2034.\nThe application process for the World Cup has not yet started. Some countries, including Egypt, Australia and China, have already expressed interest in a tender.\nThe FIFA World Cup will include 48 teams from 6 confederations. \nThe host country of the tournament is yet unknown and the bidding process is yet to begin.\nThe following countries have expressed the interest in bidding:\nFive ASEAN countries – Indonesia, Malaysia, Singapore, Thailand and Vietnam – officially proposed hosting the 2034 FIFA World Cup.\n"
+  },
+  {
+    "id":55,
+    "name":"population-density2054",
+    "descriptionHeader": "2054 - Partial Solar Eclipse",
+    "description":"A partial solar eclipse will occur on Monday, August 3, 2054. A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby totally or partly obscuring the image of the Sun for a viewer on Earth. A partial solar eclipse occurs in the polar regions of the Earth when the center of the Moon's shadow misses the Earth. This event will be the 71st and final event of Solar Saros 117."
+  },
+  {
+    "id":56,
+    "name":"population-density2074",
+    "descriptionHeader": "2074 - Plastic recycling in the future",
+    "description":"By the early 2070s, plastic recycling is ubiquitous globally. Although some of the most rural and isolated areas still lack the required infrastructure and facilities, they now represent a negligible percentage.\nBelgian chemist Leo Baekeland invented the world's first synthetic plastic, Bakelite, in 1907. Improvements in chemical technology led to an explosion of new types of plastic, with mainstream adoption beginning in the 1940s and 50s. Production expanded at a phenomenal rate during the second half of the 20th century – from two million tons annually in 1950, to more than 200 million tons each year by 2000. With no end in sight to this upward trajectory and in light of concerns over its slow decomposition after disposal, as well as its toxicity, recycling emerged as a solution from the 1980s onwards. This was more environmentally friendly than incineration, or waste-to-energy methods, which had also begun some years before.\nHowever, even with both recycling and waste-to-energy systems in place, handling the mountains of plastic waste generated each year was proving to be a formidable challenge. Researchers noted the appearance of a \"Great Pacific garbage patch\", a gyre of marine debris in the north central Pacific Ocean estimated to contain over 1.8 trillion plastic fragments. By the early 21st century, this was having a substantial impact on seabirds, fish and other life in the food chain with implications for human health too. In 2019, plastic even appeared at the bottom of the Mariana Trench, during a deep ocean expedition. Scientists calculated that plastic waste could exceed fish biomass by 2050, unless major international efforts reversed this trend.\n"
+  },
+  {
+    "id":57,
+    "name":"population-density2095",
+    "descriptionHeader": "2095 - Robotics investments & Chain Supply Management",
+    "description":"To guarantee the highest value from robotics investments, businesses must effectively converge business-critical IoRT and other IoT endpoints into a holistic and secure supply chain management ecosystem.\nWarehouses are a critical link in the supply chain, one that can either grind things to a halt or provide an invaluable boost. Robotics help facilities worldwide keep the supply chain moving at top-notch speeds by improving warehouse operating efficiency.\nThere is no shortage of warehouse robots, from autonomous mobile robots (AMR), rack-climbing pick-and-put-away robots, to cobots.\nInterestingly, the supply chain has seen significant growth in collaborative robots, or cobots, over recent years. They improve efficiency and productivity by augmenting the skills of human employees rather than attempting to replace them. Cobots can automate certain tasks in a warehouse, such as locating and picking items. They are also helping to track inventory levels, assist employees, move heavy objects, pack boxes and take care of a slew of other operational tasks.\nThis allows warehouses to achieve greater productivity without hiring a wave of new employees, which is extremely difficult given the “Great Resignation” sweeping the U.S.\nTechnology creates better supply chains by improving resilience, resource management and manufacturing processes. An efficient system starts with embracing technological change and using all the cutting-edge solutions available. Many of these technologies perform tasks more effectively, help reduce injuries and improve safety in the workplace. This will ultimately build a better and more sustainable supply chain for everyone, from manufacturing plant employees to consumers to investors and even the environment.\n"
+  },
+  {
+    "id":58,
+    "name":"population-density2100",
+    "descriptionHeader": "2100 - Human intelligence by AI",
+    "description":"2100 is a year with 365 days. The year begins and ends on a Friday. It will be the 1st year of the zero years ('zero' for short) and will end the 21st century as a secular year.\nHuman intelligence is being vastly amplified by AI\nUbiquitous, large-scale automation has led to vast swathes of human employees being replaced by virtual or robotic counterparts. Strong AI now occupies almost every level of business, government, the military, manufacturing and service sectors.\nRather than being separate entities, these AIs are often merged with human minds, greatly extending the latter's capability. For instance, knowledge and skills can now be downloaded and stored directly within the brain. As well as basic information and data, this includes many physical abilities. A person can learn self-defence, for example, become an expert in any sport, or be taught to operate a new vehicle, all within a matter of seconds.\nThe world has been transformed by this fusion of people and machines. The vastly greater power of AI means that it has become, simultaneously, both master and servant to the human race.\nThe benefits of this human-AI merger require the extensive use of implants, however – something which a significant segment of the population still refuses to accept. Compared to transhumans, these non-upgraded humans are becoming like cavemen – thousands of years behind in intellectual development.* Unable to comprehend the latest technology, the world around them appears \"fast\" and \"strange\" from their increasingly limited perspective.* This is creating a major division in society.\n"
   }
 ]
