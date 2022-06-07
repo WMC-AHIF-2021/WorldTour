@@ -13,24 +13,168 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"/>
     <link rel="icon" href="images/Antarctica.png">
     <link rel="stylesheet" href="../style.css">
-    <title>Antarctica Map</title>
+    <title>Antarctica</title>
 </head>
-<body class="bg-dark text-white">
 
+<body>
+    <div class="navbar" style="margin-top: 0.5em;">
+        <div class="container">
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
 
-    <!-- Continent Image -->
-    <div class="container">
-        <img src="images/AntarcticaMap.png" alt="AntarcticaMap" usemap="#AntarcticaMap">
+            <nav>
+                <ul class="primary-nav">
+                    <a class="logo" href="#">World<span class="textcolor">Tour</span></a> <!-- TODO: World Tour Logo (image)-->
+                </ul>
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">General</a></li>    <!-- TODO: Links zu einzelnen "Abteilungen" der Seite -->
+                    <li><a href="#">Facts</a></li>
+                    <li><a href="#">Civilization</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li class="contact-cta"><a href="#">Contact</a></li> <!-- TODO: Link zu Main index Seite um uns zu kontaktieren -->
+                </ul>
+            </nav>
+        </div>
     </div>
-    <!-- Koordinaten -->
-    <map name="AntarcticaMap">
 
-        
-    </map>
-    <script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-          crossorigin="anonymous"
-    ></script>
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                
+                <p class="subhead">no Capital City</p> <!-- TODO: Hauptstadt -->
+                <h1>Antarctica</h1> <!-- TODO: Land -->
+
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta">Scroll for facts</a>
+                    <a href="https://www.youtube.com/watch?v=X3uT89xoKuc" class="watch-video-cta"> <!-- TODO: richtiger Link für Video zum Land -->
+                        <img src="images/watch.svg" alt="Watch a video">Watch a video</img> 
+                    </a>
+                </div>
+            </div>
+
+            <img src="images/Flag.png" class="hero-img" alt="Illustration"> <!-- TODO: Flagge -->
+        </div>
+    </section>
+
+    <!-- TODO: Informationen eingeben -->
+    <section class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                <li>&#10063; Language: The officila language of Antarctica is English</li> <!-- The officila language of... is ...-->
+                <li>&#10063; Population: The population is 1,000 to 5,000 (seasonal)</li> <!-- The population is ...-->
+                <li>&#10063; population density: The population desity is 0.01/km2</li> <!-- The population desity is ...-->
+                <li>&#10063; Area: Antarctica has an area of 14,2 Thousand km²</li> <!--  ...  has an area of-->
+                <li>&#10063; Zeitverschiebung: Compared to Austria, the shifts by 12 hours</li> <!-- Compared to Austria, the shifts by ...-->
+                <li>&#10063; Random Fact: A random Fact about Antarctica is, that the ice sheet is the largest ice store on earth</li> <!-- A random Fact about ... is, that ...-->
+            </ul>
+
+            <img src="images/general.jpg" alt="Illustration"> <!-- TODO: Bild von irgendwas aus dem Land -->
+        </div>
+    </section>
+
+    <section class="information-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/food.jpg" alt="Recipe"> <!-- TODO: Bild Recipes-->
+                    <a href="https://www.coolantarctica.com/schools/antarctic_pemmican_recipe.php" style="text-decoration: none"> <h4 style="color: black; text-decoration: underline;">Antarctic Pemmican</h4> </a> <br>
+                    <blockquote>Pemmican in Antarctica is one of the two foods that Antarctic exploration was built on. It was used as a sledging food when travelling away from the main base</blockquote> <!-- TODO: Informationen -->
+                    <cite>- Recipes</cite>
+                </li>
+                <li>
+                    <img src="images/culture.jpg" alt="Culture"> <!-- TODO: Bild Culture-->
+                    <a href="https://www.iexplore.com/articles/travel-guides/antarctica/antarctica/history-and-culture#:~:text=With%20Antarctica%20lacking%20any%20permanent,whaling%20station%20at%20South%20Georgia." style="text-decoration: none"> <h4 style="color: black; text-decoration: underline;">Antarctic Culture</h4> </a> <br>
+                    <blockquote>With Antarctica lacking any permanent residents, there is no unique culture here, but visitors can learn more about the Heroic Age of Antarctic Exploration by visiting the former whaling station at South Georgia</blockquote> <!-- TODO: Informationen -->
+                    <cite>- Culture</cite>
+                </li>
+                <li>
+                    <img src="images/sights.jpg" alt="Sight"> <!-- TODO: Bild Special Sights image-->
+                    <a href="https://oceanwide-expeditions.com/de/blog/top-10-antarctic-attractions" style="text-decoration: none"> <h4 style="color: black; text-decoration: underline;">Penguin colonies</h4> </a> <br>
+                    <blockquote>Penguins and penguin colonies can be found in many places around Antarctica, but there are a few key locations they’re best found. One of the best among them is the emperor penguin colony at Snow Hill Island.</blockquote> <!-- TODO: Informationen -->
+                    <cite>- Special Sights</cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <section class="location-section" id="location">
+            <div class="container">
+                <div class="location-left">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        
+               
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/antarctica.jpg" class="d-block w-10 carousel-images"> 
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Antarctica</h5> 
+                              <p> Antarctica does not have any neighbouring countries. It is also the southernmost country on earth
+                              </p> 
+                            </div>
+                          </div>
+                         
+                          </div>
+                        </div>
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="location-right">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33859098.71777259!2d-12.328587300000013!3d-58.80400019999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb09dff882a7809e1%3A0xb08d0a385dc8c7c7!2sAntarktis!5e0!3m2!1sde!2sat!4v1653980043039!5m2!1sde!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+    </section>
+
+    <!-- hier braucht man nichts mehr verändern -->
+    <section class="features-section">
+        <div class="container">
+            <table>
+                <div class="row">
+                    <div class="col">
+                        Limesstraße 14, <br>
+                        HTBLA Leonding <br>
+                        j.meyr@students.htl-leonding.ac.at
+                    </div>
+                    <div class="col">
+                        Limesstraße 14, <br>
+                        HTBLA Leonding <br>
+                        a.gabeljic@students.htl-leonding.ac.at
+                    </div>
+                    <div class="col">
+                        Limesstraße 14, <br>
+                        HTBLA Leonding <br>
+                        e1.abazovic@students.htl-leonding.ac.at
+                    </div>
+                </div>
+            </table>
+            <img src="images/htl.jpg" style="width: 20em; height: 18em; padding-right: 2em;" alt="HTBLA Leonding"> <!-- Bild je nach Kontinentfarbe ändern (sieht sonst manchmal scheisse aus HAHAH)-->
+        </div>
+    </section>
+    <p style="background-color: black; height: 4em;"></p>
+    
+
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
