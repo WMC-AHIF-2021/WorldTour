@@ -3,13 +3,16 @@ let counter: number = 0;
 let MAX_RUNTIMES: number;
 let content: HTMLElement; //HTMLElement is also a data type
 let progressBar: HTMLElement;
-
 let descriptionHeader: HTMLElement;
 let descriptionParagraph: HTMLElement;
 let descriptionImage: HTMLElement;
+let pic: HTMLElement;
+let mapPic: HTMLElement;
 
 let isPaused: boolean = true;
 let intervalID: number;
+let doesIntervalAlreadyExist: boolean = false;
+let playCounter: number = 0;
 
 function fetchData(): void {
 
@@ -31,10 +34,14 @@ function setSimulator(): void {
     descriptionHeader = document.getElementById('descriptionHeader');
     descriptionImage = document.getElementById('descriptionImage');
     descriptionParagraph = document.getElementById('descriptionParagraph');
+
+    descriptionHeader.innerHTML = picName[counter].descriptionHeader;
+    descriptionParagraph.innerHTML = picName[counter].description;
 }
 
 function runSimulation(): void{
     isPaused = !isPaused;
+    console.log("isPaused is now " + isPaused);
     intervalID = setInterval(() => {
         if (!isPaused) {
             if (++counter === MAX_RUNTIMES){
