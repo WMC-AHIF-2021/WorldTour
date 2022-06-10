@@ -220,6 +220,7 @@ img {
   font-weight: bold;
   font-size: 1em;
   text-decoration: none;
+  margin-right: 30%;
 }
 
 .points {
@@ -246,6 +247,14 @@ img {
 img {
   display: block;
   margin: 80%;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.countryImg {
+  display: flex;
+  width: 18em;
+  height: 12em;
   margin: 0 auto;
   transition: 0.3s;
 }
@@ -277,4 +286,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#submit {
+  margin-top: 2em;
+  height: 4em;
+  width: 43.75em;
+  margin-left: -2.55em;
+  margin-bottom: -2.5em;
 }
