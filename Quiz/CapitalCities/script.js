@@ -15,6 +15,7 @@ const quizData = [
         d: "Libreville",
         correct: "d",
     },
+
     {
         question: "What is the capital city of France?",
         a: "Pristina",
@@ -212,27 +213,49 @@ const submitBtn = document.getElementById('submit')
 
 let rightOrWrong = "";
 let currentQuiz = 0
+let index = 0;
 let score = 0
+let questionsAsked = [quizData.length];
 
 loadQuiz()
+
+function WasQuestionAsked() {
+    for (let i = 0; i < questionsAsked.length; i++) {
+        if(questionsAsked[i] === currentQuiz){
+            return true;
+        }
+    }
+    return false;
+}
+
+function calculateNewQuestionIndex() {
+    currentQuiz = Math.floor(Math.random() * quizData.length);
+}
 
 function loadQuiz() {
 
     deselectAnswers()
-
+    calculateNewQuestionIndex()
+    let QuestionAlreadyAsked = WasQuestionAsked();
+    if(QuestionAlreadyAsked) {
+        while(QuestionAlreadyAsked && index < quizData.length) {
+            calculateNewQuestionIndex();
+            QuestionAlreadyAsked = WasQuestionAsked();
+        }
+    }
+    questionsAsked[index] = currentQuiz;
+    console.log(currentQuiz);
     const currentQuizData = quizData[currentQuiz];
 
-    if(currentQuiz > 0) {
+    questionEl.innerHTML = '';
+    if(index > 0) {
         if (rightOrWrong === "right") {
             questionEl.innerHTML = `<p>The last question was <span class="right">${rightOrWrong}</span>!<br>` + `Score: ${score}<br></p>`;
         } else {
             questionEl.innerHTML = `<p>The last question was <span class="wrong">${rightOrWrong}</span>!<br>` + `Score: ${score}<br></p>`;
         }
-        questionEl.innerHTML += `Question ${currentQuiz + 1}: <br><p>${currentQuizData.question}</p>`;
     }
-    else {
-        questionEl.innerHTML = `Question ${currentQuiz + 1}: <br><p>${currentQuizData.question}</p>`;
-    }
+    questionEl.innerHTML += `Question ${index + 1}: <br><p>${currentQuizData.question}</p>`;
     a_text.innerHTML = currentQuizData.a
     b_text.innerHTML = currentQuizData.b
     c_text.innerHTML = currentQuizData.c
@@ -263,17 +286,14 @@ submitBtn.addEventListener('click', () => {
        else {
            rightOrWrong = "wrong";
        }
+       index++
 
-       currentQuiz++
-
-       if(currentQuiz < quizData.length) {
+       if(index < quizData.length) {
            loadQuiz()
        } else {
            quiz.innerHTML = `
            <h2>You answered ${score}/${quizData.length} questions correctly</h2>
-
-           <button onclick="location.reload()">Reload</button>
-           `
+           <button onclick="location.reload()">Reload</button>`
        }
     }
 })
