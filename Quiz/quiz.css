@@ -1,11 +1,10 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-{
+*{ /*Stern --> wildcard --> gilt für alles*/
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 1.6em;
 }
 
@@ -17,18 +16,139 @@ body {
   border-bottom: 1px solid #888;
 }
 
+#mainContainer {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+} /*Mediaqueries --> bei bestimmter Bildschirmgr. bestimmte Funktionen*/
+#countryInformation,
+#picContent {
+  display: inline-block;
+  vertical-align: top;
+} /*align everything to the start*/
+#countryInformation {
+  width: 45%;
+  height: 83%;
+  min-width: 45%;
+  max-height: 83%;
+  font-size: medium;
+  display: flex;
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: visible; /*or unset*/
+}
+#picContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#picContentContainer {
+  display: flex;
+  height: 90%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+} /*justifies the content to the start*/
+#descriptionImage {
+  display: flex;
+  width: 95%;
+  height: 50%;
+  margin-top: 0.5em;
+}
 
-#mainContainer {width: 80%; height: 100%; display: flex; padding: 20px; gap:20px; justify-content: center}
-#countryInformation, #picContent {display: inline-block; vertical-align: bottom;}
-#countryInformation {width: 50%; height: 85%; font-size: medium; display: flex; text-align: center;}
-#picContent {width: 100%; display: flex; flex-direction: column;}
-#picContentContainer { display: flex; height: 90%; width: 100%; flex-direction: column; justify-content: center}
-#descriptionImage { display: flex; width: 23em; height: 13em; margin-top: 0.5em;}
+@media screen and (max-width: 768px) {
+  .quiz {
+    display: block !important;
+    height: unset !important;
+    overflow: unset !important;
+  }
+  #mainContainer {
+    flex-direction: column;
+    width: 100%;
+    height: unset;
+  }
+  #countryInformation {
+    width: 100%;
+    flex-basis: 500px;
+  }
+} /*das in den {} wird nur ausgeführt wenn der screen < 768px ist*/
+/*
+.info-cube {
+  position: absolute;
+  top: 0px;
+  left: -50px;
+  height: 50px;
+  width: 50px;
+}
+*/
+/*
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.master {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.group {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.item {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  padding: 60px;
+}
+*/
+
+/*
+.crop {
+  height: 500px;
+  width: 510px;
+  overflow: visible;
+  object-fit: contain;
+}
+
+.crop .card-image {
+  height: auto; /*follows the size of the parent*/
+/*width: auto;
+}*/
 
 .quiz {
   background-color: rgba(68, 63, 63, 0.8);
-  background-image: linear-gradient(315deg, rgba(68, 63, 63, 0.6) 0%, rgba(68, 63, 63, 0.6) 100%);
-  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(
+          315deg,
+          rgba(68, 63, 63, 0.6) 0%,
+          rgba(68, 63, 63, 0.6) 100%
+  );
+  font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -37,7 +157,7 @@ body {
 }
 
 .progress-bar {
-  background-color: #20272E;
+  background-color: #20272e;
 }
 
 p {
@@ -58,7 +178,7 @@ p {
   justify-content: center;
 }
 
-.quiz-container{
+.quiz-container {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px 2px rgba(68, 63, 63, 0.6);
@@ -69,7 +189,7 @@ p {
   max-width: 700px;
 }
 
-.quiz-header{
+.quiz-header {
   width: 100%;
   padding: 2.5rem;
 }
@@ -80,12 +200,12 @@ h3 {
   text-align: center;
 }
 
-h2{
+h2 {
   padding: 1rem;
   margin: 0;
 }
 
-ul{
+ul {
   list-style-type: none;
   padding: 0;
 }
@@ -94,16 +214,16 @@ ul{
   color: rgb(53, 157, 253);
 }
 
-ul li{
+ul li {
   font-size: 1.2rem;
   margin: 1rem 0;
 }
 
-ul li label{
+ul li label {
   cursor: pointer;
 }
 
-button{
+button {
   background-color: rgb(53, 157, 253);
   color: #fff;
   border: none;
@@ -132,7 +252,7 @@ button{
   height: 4em;
 }
 
-button:hover{
+button:hover {
   background-color: rgb(23, 109, 187);
 }
 
@@ -179,7 +299,6 @@ img {
   font-size: 0.6em;
 }
 
-
 img {
   display: block;
   margin: 80%;
@@ -187,29 +306,30 @@ img {
   transition: 0.3s;
 }
 
-.playImg{
+.playImg {
   width: 80%;
+  max-width: 30px;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-.show{
+.show {
   display: block;
 }
 
-.menu{
-  display: flex;
+.menu {
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
-.playButton:hover{
+.playButton:hover {
   background-color: antiquewhite;
 }
 
-.content{
+.content {
   display: flex;
   justify-content: center;
   align-items: center;
