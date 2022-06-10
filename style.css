@@ -171,3 +171,33 @@ img {
   margin: 0 auto;
   transition: 0.3s;
 }
+
+/* styles für einfliegendes flugzeug ...*/
+
+.wrapper {
+  position: relative;
+  height: 2em;
+  width: 100em;
+}
+
+.flyingPlane {
+  position: absolute;
+  top:0; left:0;
+  width: 100em;
+  transition: left 3s 3s;
+}
+
+.slideright {
+  left: 90em;
+}
+
+.flyingPlane img {
+  position: absolute;
+  left:-600px;
+}
+/*
+@media screen and (max-width: 768px) {
+  .flyingPlane {
+    width: 0em;
+  }
+}*/
