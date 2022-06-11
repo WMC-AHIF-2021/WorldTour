@@ -64,6 +64,7 @@ body {
     display: block !important;
     height: unset !important;
     overflow: unset !important;
+    background-color: rgba(68, 63, 63, 0.8);
   }
   #mainContainer {
     flex-direction: column;
@@ -74,16 +75,7 @@ body {
     width: 100%;
     flex-basis: 500px;
   }
-} /*das in den {} wird nur ausgeführt wenn der screen < 768px ist*/
-/*
-.info-cube {
-  position: absolute;
-  top: 0px;
-  left: -50px;
-  height: 50px;
-  width: 50px;
 }
-*/
 
 .quiz {
   background-color: rgba(68, 63, 63, 0.8);
