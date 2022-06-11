@@ -1,4 +1,4 @@
-
+//Loadingscreen:
 window.addEventListener("load", () => {
   const preload = document.querySelector(".preload");
   delay(10);
@@ -32,3 +32,19 @@ if (flyIn) {
   observer.observe (flyIn);
 }
 
+// für einfliegenden Text bei preface in index.html:
+/*function reveal() {
+  const r = document.querySelectorAll(".reveal");
+  for (let i = 0; i < r.length; i++) {
+    let windowSize = window.innerHeight;
+    let element = r[i].getBoundingClientRect().top;
+    let visible = 150;
+    if (element < windowSize - visible) {
+      r[i].classList.add("active");
+    } else {
+      r[i].classList.remove("active");
+    }
+  }
+}
+reveal();
+window.addEventListener("scroll", reveal);*/

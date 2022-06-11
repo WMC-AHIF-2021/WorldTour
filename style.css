@@ -190,7 +190,7 @@ img {
 }
 
 /*styles für die buttons (capital city quiz + flags quiz + worldInData) - neu*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1227px) {
   .cards {
     margin-top: -6em;
     margin-bottom: -6em;
