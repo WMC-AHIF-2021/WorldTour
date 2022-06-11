@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 body {
@@ -112,9 +111,6 @@ blockquote {
   animation: globe 1s ease infinite alternate;
 }
 
-
-
-
 .dropdown-submenu { /*dropdown to dropdown Funktion*/
   position: relative;
   cursor: pointer;
@@ -132,7 +128,6 @@ blockquote {
 
 .dropdown-content {
   display: inline;
- /* display: none;*/
   position: absolute;
   background-color: rgba(68, 63, 63, 0.6); /*Hintergrund des Dropdowns*/
   min-width: 160px; /*Breite der Dropdown Box*/
@@ -160,7 +155,6 @@ blockquote {
 }
 
 .dropdown-content a:hover {background-color: rgba(68, 63, 63, 0.6);} /*Farbe des Dropdowns*/
-
 .dropdown:hover .dropdown-content { /*dropdown Funktion*/
   display: block;
 }
@@ -172,8 +166,7 @@ img {
   transition: 0.3s;
 }
 
-/* styles für einfliegendes flugzeug ...*/
-
+/* styles für einfliegendes flugzeug bei 2d-map*/
 .wrapper {
   position: relative;
   height: 2em;
@@ -195,18 +188,12 @@ img {
   position: absolute;
   left:-600px;
 }
-/*
-@media screen and (max-width: 768px) {
-  .flyingPlane {
-    width: 0em;
-  }
-}*/
-
 
 /*styles für die buttons (capital city quiz + flags quiz + worldInData) - neu*/
 @media screen and (min-width: 768px) {
   .cards {
-    margin: 0;
+    margin-top: -6em;
+    margin-bottom: -6em;
     padding: 0;
     width: 100%;
     height: 100vh;
@@ -282,7 +269,5 @@ img {
       background-position: 0 0;
     }
   }
-
-
   Resources
 }
