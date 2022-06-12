@@ -51,7 +51,6 @@ const quizData = [
         continent: "Asia",
         country: "thailand",
     },
-
     {
         flag: baseUrl + 'SouthAmerica/images/brazil/brazil.png',
         continent: "South America",
@@ -63,7 +62,7 @@ const quizData = [
         country: "fiji",
     },
     {
-        flag: baseUrl + 'Europe/images/spain/Flag.png',
+        flag: baseUrl + 'Europe/images/Spain/Flag.png',
         continent: "Europe",
         country: "spain",
     },
@@ -111,9 +110,8 @@ function loadImage():Promise<void> {
         }
     }
     questionsAsked[index] = currentQuiz;
-    console.log(currentQuiz);
+    console.log(questionsAsked[index]);
     const currentQuizData = quizData[currentQuiz];
-
     questionEl.innerHTML = '';
     if(index === 0) {
         questionEl.innerHTML = '<div class="flagGuessingHeader">' +
@@ -123,10 +121,10 @@ function loadImage():Promise<void> {
     else {
         questionEl.innerHTML = '<div class="flagGuessingHeader">' +
             '<a class="quizName textcolor">Flag Guessing</a>' +
-            '<a class="points" style="margin-left:2em">Score: ' + score + '/' + index + '</a>'
+            '<a class="points" style="margin-left:1em">Score: ' + score + '/' + index + '</a>'
             + '</div>';
     }
-    questionEl.innerHTML +=  '<img src=' + currentQuizData.flag + '>';
+    questionEl.innerHTML += '<img style="height: 12em" src=' + currentQuizData.flag + '>';
     return;
 }
 
@@ -173,7 +171,7 @@ submitBtn.addEventListener('click', () => {
         setTimeout(async () => {
             await loadImage();
             outPutEl.innerHTML = '';
-            loadImage();
+            //loadImage();
         }, 1500);
     }
 })

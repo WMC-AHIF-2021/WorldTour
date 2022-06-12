@@ -98,7 +98,7 @@ var quizData = [
         country: "fiji",
     },
     {
-        flag: baseUrl + 'Europe/images/spain/Flag.png',
+        flag: baseUrl + 'Europe/images/Spain/Flag.png',
         continent: "Europe",
         country: "spain",
     },
@@ -142,7 +142,7 @@ function loadImage() {
         }
     }
     questionsAsked[index] = currentQuiz;
-    console.log(currentQuiz);
+    console.log(questionsAsked[index]);
     var currentQuizData = quizData[currentQuiz];
     questionEl.innerHTML = '';
     if (index === 0) {
@@ -153,10 +153,10 @@ function loadImage() {
     else {
         questionEl.innerHTML = '<div class="flagGuessingHeader">' +
             '<a class="quizName textcolor">Flag Guessing</a>' +
-            '<a class="points" style="margin-left:2em">Score: ' + score + '/' + index + '</a>'
+            '<a class="points" style="margin-left:1em">Score: ' + score + '/' + index + '</a>'
             + '</div>';
     }
-    questionEl.innerHTML += '<img src=' + currentQuizData.flag + '>';
+    questionEl.innerHTML += '<img style="height: 12em" src=' + currentQuizData.flag + '>';
     return;
 }
 function getCountry() {
@@ -200,7 +200,6 @@ submitBtn.addEventListener('click', function () {
                     case 1:
                         _a.sent();
                         outPutEl.innerHTML = '';
-                        loadImage();
                         return [2 /*return*/];
                 }
             });
