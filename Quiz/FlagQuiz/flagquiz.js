@@ -115,15 +115,17 @@ var quizData = [
 ];
 var quiz = document.getElementById('quiz');
 var questionEl = document.getElementById('question');
-var submitBtn = document.getElementById('submitCountry');
-var hintBtn = document.getElementById('hintBtn');
+var submitBtn = document.getElementById('submitCountry'); //button for next flag
+var hintBtn = document.getElementById('hintBtn'); //hintbutton
 var hintEl = document.getElementById('hintOutPut');
 var outPutEl = document.getElementById('output');
 var input = document.getElementById('sizeIn');
-var currentQuiz = 0;
-var score = 0;
-var index = 0;
-var questionsAsked = [quizData.length];
+var currentQuiz = 0; //current Flay which is currently asked
+var score = 0; //user score
+var index = 0; //counts up to quizdata.length
+var questionsAsked = [quizData.length]; //array for indexes which were already displayed
+//sees if the flag was already generated, more specific: displayed before
+//true, if already displayed
 function WasQuestionAsked() {
     for (var i = 0; i < questionsAsked.length; i++) {
         if (questionsAsked[i] === currentQuiz) {
@@ -132,6 +134,8 @@ function WasQuestionAsked() {
     }
     return false;
 }
+//displayes new flag to guess its name from
+//+ output of current score
 function loadImage() {
     generateNewFlagToQuiz();
     var QuestionAlreadyAsked = WasQuestionAsked();
@@ -144,7 +148,6 @@ function loadImage() {
     questionsAsked[index] = currentQuiz;
     console.log(questionsAsked[index]);
     var currentQuizData = quizData[currentQuiz];
-    questionEl.innerHTML = '';
     if (index === 0) {
         questionEl.innerHTML = '<div class="flagGuessingHeader">' +
             '<a class="quizName textcolor" style="text-align: right">Flag Guessing</a>'
@@ -159,24 +162,32 @@ function loadImage() {
     questionEl.innerHTML += '<img style="height: 12em" src=' + currentQuizData.flag + '>';
     return;
 }
+//trim input from user in case there were accidentally put spaces
+//and convert to lowercase
 function getCountry() {
-    return input.value.toLowerCase();
+    return input.value.trim().toLowerCase();
 }
+//sees if the guess was right
+//returns true if so
 function isCountryRight(guess) {
     if (guess === quizData[currentQuiz].country) {
         return true;
     }
     return false;
 }
+//at the end: reload button + output (how many flags have you guessed correctly)
 function end() {
     quiz.innerHTML = "<h2>You guessed " + score + "/" + quizData.length + " countries by their flag correctly!</h2>\n           <button style=\"reloadButton\" onclick=\"location.reload()\">Reload</button>";
 }
+//generate new random flag (index) to display these informations on the website
 function generateNewFlagToQuiz() {
     currentQuiz = Math.floor(Math.random() * quizData.length);
 }
+//if DOMContentLoaded --> display first image
 document.addEventListener('DOMContentLoaded', function (event) {
     loadImage();
 });
+//if submit button is pressed, we test if the user input was correct
 submitBtn.addEventListener('click', function () {
     var guessedCountry = getCountry();
     if (isCountryRight(guessedCountry)) {
@@ -192,7 +203,6 @@ submitBtn.addEventListener('click', function () {
         end();
     }
     else {
-        //console.log(currentQuiz);
         setTimeout(function () { return __awaiter(_this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
@@ -206,6 +216,7 @@ submitBtn.addEventListener('click', function () {
         }); }, 1500);
     }
 });
+//for a hint
 var hintButtonClickCounter = 0;
 hintBtn.addEventListener('click', function () {
     hintButtonClickCounter++;

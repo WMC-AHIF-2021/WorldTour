@@ -30,7 +30,6 @@ const quizData = [
         continent: "Asia",
         country: "bahrain",
     },
-
     {
         flag: baseUrl + 'SouthAmerica/images/peru/peru.jpg',
         continent: "South America",
@@ -80,26 +79,30 @@ const quizData = [
 
 const quiz = document.getElementById('quiz');
 const questionEl = document.getElementById('question');
-const submitBtn = document.getElementById('submitCountry');
-const hintBtn = document.getElementById('hintBtn');
+const submitBtn = document.getElementById('submitCountry'); //button for next flag
+const hintBtn = document.getElementById('hintBtn'); //hintbutton
 const hintEl = document.getElementById('hintOutPut');
 const outPutEl = document.getElementById('output');
 const input = <HTMLInputElement>document.getElementById('sizeIn');
 
-let currentQuiz:number = 0;
-let score:number = 0;
-let index: number = 0;
-let questionsAsked = [quizData.length];
+let currentQuiz:number = 0; //current Flay which is currently asked
+let score:number = 0; //user score
+let index: number = 0;//counts up to quizdata.length
+let questionsAsked = [quizData.length]; //array for indexes which were already displayed
 
+//sees if the flag was already generated, more specific: displayed before
+//true, if already displayed
 function WasQuestionAsked() {
     for (let i = 0; i < questionsAsked.length; i++) {
-        if(questionsAsked[i] === currentQuiz){
+        if(questionsAsked[i] === currentQuiz) {
             return true;
         }
     }
     return false;
 }
 
+//displayes new flag to guess its name from
+//+ output of current score
 function loadImage():Promise<void> {
     generateNewFlagToQuiz();
     let QuestionAlreadyAsked = WasQuestionAsked();
@@ -109,10 +112,11 @@ function loadImage():Promise<void> {
             QuestionAlreadyAsked = WasQuestionAsked();
         }
     }
+
     questionsAsked[index] = currentQuiz;
     console.log(questionsAsked[index]);
     const currentQuizData = quizData[currentQuiz];
-    questionEl.innerHTML = '';
+
     if(index === 0) {
         questionEl.innerHTML = '<div class="flagGuessingHeader">' +
             '<a class="quizName textcolor" style="text-align: right">Flag Guessing</a>'
@@ -128,10 +132,14 @@ function loadImage():Promise<void> {
     return;
 }
 
+//trim input from user in case there were accidentally put spaces
+//and convert to lowercase
 function getCountry():string {
-    return input.value.toLowerCase();
+    return input.value.trim().toLowerCase();
 }
 
+//sees if the guess was right
+//returns true if so
 function isCountryRight(guess:string) : boolean{
     if(guess === quizData[currentQuiz].country) {
         return true;
@@ -139,19 +147,23 @@ function isCountryRight(guess:string) : boolean{
     return false;
 }
 
+//at the end: reload button + output (how many flags have you guessed correctly)
 function end() {
     quiz.innerHTML = `<h2>You guessed ${score}/${quizData.length} countries by their flag correctly!</h2>
            <button style="reloadButton" onclick="location.reload()">Reload</button>`;
 }
 
+//generate new random flag (index) to display these informations on the website
 function generateNewFlagToQuiz() {
     currentQuiz = Math.floor(Math.random() * quizData.length);
 }
 
+//if DOMContentLoaded --> display first image
 document.addEventListener('DOMContentLoaded', (event) => {
     loadImage();
 });
 
+//if submit button is pressed, we test if the user input was correct
 submitBtn.addEventListener('click', () => {
     const guessedCountry = getCountry();
     if(isCountryRight(guessedCountry)) {
@@ -167,15 +179,15 @@ submitBtn.addEventListener('click', () => {
         end();
     }
     else {
-        //console.log(currentQuiz);
         setTimeout(async () => {
             await loadImage();
             outPutEl.innerHTML = '';
-            //loadImage();
         }, 1500);
     }
 })
 
+
+//for a hint
 let hintButtonClickCounter:number = 0;
 hintBtn.addEventListener('click', () => {
     hintButtonClickCounter++;
