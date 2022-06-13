@@ -1,0 +1,230 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the capital city of Liechtenstein?",
+      "a": "Vilinus",
+      "b": "Vienna",
+      "c": "Vaduz",
+      "d": "Valetta",
+      "correct": "c"
+    },
+    {
+      "id": 2,
+      "question": "What is the capital city of Gabon?",
+      "a": "Maputo",
+      "b": "Bogota",
+      "c": "Kinshasa",
+      "d": "Libreville",
+      "correct": "d"
+    },
+    {
+      "id" : 3,
+      "question": "What is the capital city of France?",
+      "a": "Pristina",
+      "b": "Lima",
+      "c": "Paris",
+      "d": "Warsaw",
+      "correct": "c"
+    },
+    {
+      "id" : 4,
+      "question": "What is the capital city of Angola?",
+      "a": "Luanda",
+      "b": "Port Moresby",
+      "c": "Malabo",
+      "d": "Lusaka",
+      "correct": "a"
+    },
+    {
+      "id" : 5,
+      "question": "What is the capital city of Lebanon?",
+      "a": "Tapei",
+      "b": "Beriut",
+      "c": "Ashgabat",
+      "d": "Tashkent",
+      "correct": "b"
+    },
+    {
+      "id" : 6,
+      "question": "What is the capital city of Belgium?",
+      "a": "Riga",
+      "b": "Oslo",
+      "c": "Tallinn",
+      "d": "Brussels",
+      "correct": "d"
+    },
+    {
+      "id" : 7,
+      "question": "What is the capital city of Madagascar?",
+      "a": "Antananarivo",
+      "b": "San Jose",
+      "c": "Conakry",
+      "d": "Niamey",
+      "correct": "a"
+    },
+    {
+      "id" : 8,
+      "question": "What is the capital city of Ghana?",
+      "a": "Gitega",
+      "b": "Accra",
+      "c": "Algiers",
+      "d": "Kingstown",
+      "correct": "b"
+    },
+    {
+      "id" : 9,
+      "question": "What is the capital city of Nigeria?",
+      "a": "Abuja",
+      "b": "Kigali",
+      "c": "Harare",
+      "d": "Rabat",
+      "correct": "a"
+    },
+    {
+      "id" : 10,
+      "question": "What is the capital city of Mozambique?",
+      "a": "Brazzaville",
+      "b": "Freetown",
+      "c": "Kabul",
+      "d": "Maputo",
+      "correct": "d"
+    },
+    {
+      "id" : 11,
+      "question": "What is the capital city of Suriname?",
+      "a": "Asuncion",
+      "b": "Manama",
+      "c": "Paramaribo",
+      "d": "Castries",
+      "correct": "c"
+    },
+    {
+      "id" : 12,
+      "question": "What is the capital city of Cyprus?",
+      "a": "Porto-Novo",
+      "b": "Reykjavik",
+      "c": "Lima",
+      "d": "Nicosia",
+      "correct": "d"
+    },
+    {
+      "id": 13,
+      "question": "What is the capital city of the Republic of Congo?",
+      "a": "Bridgetown",
+      "b": "Dakar",
+      "c": "Nairobi",
+      "d": "Brazzaville",
+      "correct": "d"
+    },
+    {
+      "id" : 14,
+      "question": "What is the capital city of Latvia?",
+      "a": "Vilinius",
+      "b": "Riga",
+      "c": "Amsterdam",
+      "d": "Budapest",
+      "correct": "b"
+    },
+    {
+      "id" : 15,
+      "question": "What is the capital city of Kosovo?",
+      "a": "Nikosia",
+      "b": "Vaduz",
+      "c": "Pristina",
+      "d": "Tirana",
+      "correct": "c"
+    },
+    {
+      "id" : 16,
+      "question": "What is the capital city of Morocco?",
+      "a": "Luanda",
+      "b": "Rabat",
+      "c": "Moroni",
+      "d": "Chisinau",
+      "correct": "b"
+    },
+    {
+      "id" : 17,
+      "question": "What is the capital city of Tonga?",
+      "a": "Palikir",
+      "b": "Nuku'alofa",
+      "c": "Castries",
+      "d": "Basseterre",
+      "correct": "b"
+    },
+    {
+      "id" : 18,
+      "question": "What is the capital city of the United Arab Emirates?",
+      "a": "Dubai",
+      "b": "Seoul",
+      "c": "Abu Dhabi",
+      "d": "Muscat",
+      "correct": "c"
+    },
+    {
+      "id" : 19,
+      "question": "What is the capital city of Bhutan?",
+      "a": "Thimphu",
+      "b": "Damascus",
+      "c": "Phnom Penh",
+      "d": "Dhaka",
+      "correct": "a"
+    },
+    {
+      "id" : 20,
+      "question": "What is the capital city of Nicaragua?",
+      "a": "Castries",
+      "b": "Windhoek",
+      "c": "Basseterre",
+      "d": "Managua",
+      "correct": "d"
+    },
+    {
+      "id" : 21,
+      "question": "What is the capital city of Ethiopia?",
+      "a": "Addis Abada",
+      "b": "Victoria",
+      "c": "Djibouti",
+      "d": "Kinshasa",
+      "correct": "a"
+    },
+    {
+      "id" : 22,
+      "question": "What is the capital city of Bosnia and Hercegovina?",
+      "a": "Skopje",
+      "b": "Bukarest",
+      "c": "Sarajevo",
+      "d": "Zagreb",
+      "correct": "c"
+    },
+    {
+      "id" : 23,
+      "question": "What is the capital city of Guinea-Bissau?",
+      "a": "Dakar",
+      "b": "Bissau",
+      "c": "Moroni",
+      "d": "Managua",
+      "correct": "b"
+    },
+    {
+      "id" : 24,
+      "question": "What is the capital city of North Korea?",
+      "a": "Pyongyang",
+      "b": "Tokio",
+      "c": "Seoul",
+      "d": "Peking",
+      "correct": "a"
+    },
+    {
+      "id" : 25,
+      "question": "What is the capital city of Poland?",
+      "a": "Belgrade",
+      "b": "Minsk",
+      "c": "Moskau",
+      "d": "Warsaw",
+      "correct": "d"
+    }
+  ],
+  "profile": { "name": "webt" }
+}
