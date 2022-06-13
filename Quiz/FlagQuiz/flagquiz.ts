@@ -135,7 +135,10 @@ function loadImage():Promise<void> {
 //trim input from user in case there were accidentally put spaces
 //and convert to lowercase
 function getCountry():string {
-    return input.value.trim().toLowerCase();
+    if(input.value === "" || input.value === " " || input.value === null || input.value == undefined) {
+        outPutEl.innerHTML = "Invalid input ...";
+    } else
+        return input.value.trim().toLowerCase();
 }
 
 //sees if the guess was right

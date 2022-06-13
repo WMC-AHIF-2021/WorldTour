@@ -165,7 +165,11 @@ function loadImage() {
 //trim input from user in case there were accidentally put spaces
 //and convert to lowercase
 function getCountry() {
-    return input.value.trim().toLowerCase();
+    if (input.value === "" || input.value === " " || input.value === null || input.value == undefined) {
+        outPutEl.innerHTML = "Invalid input ...";
+    }
+    else
+        return input.value.trim().toLowerCase();
 }
 //sees if the guess was right
 //returns true if so
