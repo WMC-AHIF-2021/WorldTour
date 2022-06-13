@@ -198,7 +198,6 @@ submitBtn.addEventListener('click', function () {
         outPutEl.innerHTML = "<p>Sorry, that's <span class=\"wrong\">wrong</span> ...<br>";
     }
     index++;
-    hintEl.innerHTML = '';
     if (index > quizData.length - 1) {
         end();
     }

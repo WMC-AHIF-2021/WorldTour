@@ -174,12 +174,11 @@ submitBtn.addEventListener('click', () => {
         outPutEl.innerHTML = `<p>Sorry, that\'s <span class="wrong">wrong</span> ...<br>`;
     }
     index++;
-    hintEl.innerHTML = '';
     if(index > quizData.length - 1) {
         end();
     }
     else {
-        setTimeout(async () => {
+        setTimeout( async () => {
             await loadImage();
             outPutEl.innerHTML = '';
         }, 1500);
